@@ -1,0 +1,1504 @@
+{
+  "filmes": [
+    {
+      "nome": "1. Um Sonho de Liberdade",
+      "ano": "1994",
+      "duracao": "2h 22m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "2. O Poderoso Chef\u00e3o",
+      "ano": "1972",
+      "duracao": "2h 55m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "3. Batman - O Cavaleiro das Trevas",
+      "ano": "2008",
+      "duracao": "2h 32m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "4. O Poderoso Chef\u00e3o II",
+      "ano": "1974",
+      "duracao": "3h 22m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "5. 12 Homens e uma Senten\u00e7a",
+      "ano": "1957",
+      "duracao": "1h 36m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "6. A Lista de Schindler",
+      "ano": "1993",
+      "duracao": "3h 15m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "7. O Senhor dos An\u00e9is: O Retorno do Rei",
+      "ano": "2003",
+      "duracao": "3h 21m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "8. Pulp Fiction - Tempo de Viol\u00eancia",
+      "ano": "1994",
+      "duracao": "2h 34m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "9. O Senhor dos An\u00e9is: A Sociedade do Anel",
+      "ano": "2001",
+      "duracao": "2h 58m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "10. Tr\u00eas Homens em Conflito",
+      "ano": "1966",
+      "duracao": "2h 41m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "11. Forrest Gump: O Contador de Hist\u00f3rias",
+      "ano": "1994",
+      "duracao": "2h 22m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "12. Clube da Luta",
+      "ano": "1999",
+      "duracao": "2h 19m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "13. O Senhor dos An\u00e9is: As Duas Torres",
+      "ano": "2002",
+      "duracao": "2h 59m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "14. A Origem",
+      "ano": "2010",
+      "duracao": "2h 28m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "15. Star Wars: Epis\u00f3dio V - O Imp\u00e9rio Contra-Ataca",
+      "ano": "1980",
+      "duracao": "2h 4m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "16. Matrix",
+      "ano": "1999",
+      "duracao": "2h 16m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "17. Os Bons Companheiros",
+      "ano": "1990",
+      "duracao": "2h 25m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "18. Um Estranho no Ninho",
+      "ano": "1975",
+      "duracao": "2h 13m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "19. Seven: Os Sete Crimes Capitais",
+      "ano": "1995",
+      "duracao": "2h 7m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "20. A Felicidade N\u00e3o se Compra",
+      "ano": "1946",
+      "duracao": "2h 10m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "21. Os Sete Samurais",
+      "ano": "1954",
+      "duracao": "3h 27m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "22. Interestelar",
+      "ano": "2014",
+      "duracao": "2h 49m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "23. O Sil\u00eancio dos Inocentes",
+      "ano": "1991",
+      "duracao": "1h 58m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "24. O Resgate do Soldado Ryan",
+      "ano": "1998",
+      "duracao": "2h 49m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "25. Cidade de Deus",
+      "ano": "2002",
+      "duracao": "2h 10m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "26. A Vida \u00e9 Bela",
+      "ano": "1997",
+      "duracao": "1h 56m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "27. \u00c0 Espera de um Milagre",
+      "ano": "1999",
+      "duracao": "3h 9m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "28. Star Wars: Epis\u00f3dio IV - Uma Nova Esperan\u00e7a",
+      "ano": "1977",
+      "duracao": "2h 1m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "29. Homem-Aranha: Atrav\u00e9s do Aranhaverso",
+      "ano": "2023",
+      "duracao": "2h 20m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "30. O Exterminador do Futuro 2: O Julgamento Final",
+      "ano": "1991",
+      "duracao": "2h 17m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "31. De Volta para o Futuro",
+      "ano": "1985",
+      "duracao": "1h 56m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "32. A Viagem de Chihiro",
+      "ano": "2001",
+      "duracao": "2h 5m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "33. O Pianista",
+      "ano": "2002",
+      "duracao": "2h 30m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "34. Parasita",
+      "ano": "2019",
+      "duracao": "2h 12m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "35. Psicose",
+      "ano": "1960",
+      "duracao": "1h 49m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "36. Gladiador",
+      "ano": "2000",
+      "duracao": "2h 35m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "37. O Rei Le\u00e3o",
+      "ano": "1994",
+      "duracao": "1h 28m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "38. O Profissional",
+      "ano": "1994",
+      "duracao": "1h 50m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "39. A Outra Hist\u00f3ria Americana",
+      "ano": "1998",
+      "duracao": "1h 59m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "40. Os Infiltrados",
+      "ano": "2006",
+      "duracao": "2h 31m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "41. Whiplash: Em Busca da Perfei\u00e7\u00e3o",
+      "ano": "2014",
+      "duracao": "1h 46m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "42. O Grande Truque",
+      "ano": "2006",
+      "duracao": "2h 10m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "43. T\u00famulo dos Vagalumes",
+      "ano": "1988",
+      "duracao": "1h 29m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "44. Os Suspeitos",
+      "ano": "1995",
+      "duracao": "1h 46m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "45. Harakiri",
+      "ano": "1962",
+      "duracao": "2h 13m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "46. Casablanca",
+      "ano": "1942",
+      "duracao": "1h 42m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "47. Intoc\u00e1veis",
+      "ano": "2011",
+      "duracao": "1h 52m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "48. Tempos Modernos",
+      "ano": "1936",
+      "duracao": "1h 27m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "49. Cinema Paradiso",
+      "ano": "1988",
+      "duracao": "2h 35m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "50. Janela Indiscreta",
+      "ano": "1954",
+      "duracao": "1h 52m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "51. Era uma Vez no Oeste",
+      "ano": "1968",
+      "duracao": "2h 46m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "52. Alien - O 8\u00ba Passageiro",
+      "ano": "1979",
+      "duracao": "1h 57m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "53. Luzes da Cidade",
+      "ano": "1931",
+      "duracao": "1h 27m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "54. Apocalypse Now",
+      "ano": "1979",
+      "duracao": "2h 27m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "55. Django Livre",
+      "ano": "2012",
+      "duracao": "2h 45m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "56. Amn\u00e9sia",
+      "ano": "2000",
+      "duracao": "1h 53m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "57. Os Ca\u00e7adores da Arca Perdida",
+      "ano": "1981",
+      "duracao": "1h 55m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "58. WALL\u00b7E",
+      "ano": "2008",
+      "duracao": "1h 38m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "59. A Vida dos Outros",
+      "ano": "2006",
+      "duracao": "2h 17m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "60. Crep\u00fasculo dos Deuses",
+      "ano": "1950",
+      "duracao": "1h 50m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "61. Gl\u00f3ria Feita de Sangue",
+      "ano": "1957",
+      "duracao": "1h 28m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "62. Vingadores: Guerra Infinita",
+      "ano": "2018",
+      "duracao": "2h 29m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "63. O Iluminado",
+      "ano": "1980",
+      "duracao": "2h 26m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "64. Homem-Aranha: No Aranhaverso",
+      "ano": "2018",
+      "duracao": "1h 57m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "65. Testemunha de Acusa\u00e7\u00e3o",
+      "ano": "1957",
+      "duracao": "1h 56m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "66. O Grande Ditador",
+      "ano": "1940",
+      "duracao": "2h 5m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "67. Aliens, O Resgate",
+      "ano": "1986",
+      "duracao": "2h 17m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "68. Oppenheimer",
+      "ano": "2023",
+      "duracao": "3h",
+      "classificacao": "16"
+    },
+    {
+      "nome": "69. Bastardos Ingl\u00f3rios",
+      "ano": "2009",
+      "duracao": "2h 33m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "70. Batman - O Cavaleiro das Trevas Ressurge",
+      "ano": "2012",
+      "duracao": "2h 44m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "71. Beleza Americana",
+      "ano": "1999",
+      "duracao": "2h 2m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "72. Dr. Fant\u00e1stico",
+      "ano": "1964",
+      "duracao": "1h 35m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "73. Oldboy",
+      "ano": "2003",
+      "duracao": "2h",
+      "classificacao": "16"
+    },
+    {
+      "nome": "74. Viva: A Vida \u00e9 uma Festa",
+      "ano": "2017",
+      "duracao": "1h 45m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "75. Amadeus",
+      "ano": "1984",
+      "duracao": "2h 40m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "76. Toy Story",
+      "ano": "1995",
+      "duracao": "1h 21m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "77. O Barco: Inferno no Mar",
+      "ano": "1981",
+      "duracao": "2h 29m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "78. Cora\u00e7\u00e3o Valente",
+      "ano": "1995",
+      "duracao": "2h 58m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "79. Vingadores: Ultimato",
+      "ano": "2019",
+      "duracao": "3h 1m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "80. Coringa",
+      "ano": "2019",
+      "duracao": "2h 2m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "81. Princesa Mononoke",
+      "ano": "1997",
+      "duracao": "2h 14m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "82. G\u00eanio Indom\u00e1vel",
+      "ano": "1997",
+      "duracao": "2h 6m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "83. Your Name.",
+      "ano": "2016",
+      "duracao": "1h 46m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "84. Era uma Vez na Am\u00e9rica",
+      "ano": "1984",
+      "duracao": "3h 49m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "85. 3 Idiotas",
+      "ano": "2009",
+      "duracao": "2h 50m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "86. C\u00e9u E Inferno",
+      "ano": "1963",
+      "duracao": "2h 23m",
+      "classificacao": "Not Rated"
+    },
+    {
+      "nome": "87. Cantando na Chuva",
+      "ano": "1952",
+      "duracao": "1h 43m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "88. Cafarnaum",
+      "ano": "2018",
+      "duracao": "2h 6m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "89. R\u00e9quiem para um Sonho",
+      "ano": "2000",
+      "duracao": "1h 42m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "90. V\u00e1 e Veja",
+      "ano": "1985",
+      "duracao": "2h 22m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "91. Toy Story 3",
+      "ano": "2010",
+      "duracao": "1h 43m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "92. Star Wars, Epis\u00f3dio VI: O Retorno do Jedi",
+      "ano": "1983",
+      "duracao": "2h 11m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "93. Brilho Eterno de uma Mente sem Lembran\u00e7as",
+      "ano": "2004",
+      "duracao": "1h 48m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "94. A Ca\u00e7a",
+      "ano": "2012",
+      "duracao": "1h 55m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "95. 2001: Uma Odiss\u00e9ia no Espa\u00e7o",
+      "ano": "1968",
+      "duracao": "2h 29m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "96. C\u00e3es de Aluguel",
+      "ano": "1992",
+      "duracao": "1h 39m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "97. Viver",
+      "ano": "1952",
+      "duracao": "2h 23m",
+      "classificacao": "Not Rated"
+    },
+    {
+      "nome": "98. Lawrence da Ar\u00e1bia",
+      "ano": "1962",
+      "duracao": "3h 38m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "99. Se Meu Apartamento Falasse",
+      "ano": "1960",
+      "duracao": "2h 5m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "100. Cidad\u00e3o Kane",
+      "ano": "1941",
+      "duracao": "1h 59m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "101. M, o Vampiro de Dusseldorf",
+      "ano": "1931",
+      "duracao": "1h 57m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "102. Intriga Internacional",
+      "ano": "1959",
+      "duracao": "2h 16m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "103. Um Corpo que Cai",
+      "ano": "1958",
+      "duracao": "2h 8m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "104. Pacto de Sangue",
+      "ano": "1944",
+      "duracao": "1h 47m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "105. Scarface",
+      "ano": "1983",
+      "duracao": "2h 50m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "106. O Fabuloso Destino de Am\u00e9lie Poulain",
+      "ano": "2001",
+      "duracao": "2h 2m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "107. Nascido para Matar",
+      "ano": "1987",
+      "duracao": "1h 56m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "108. Inc\u00eandios",
+      "ano": "2010",
+      "duracao": "2h 11m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "109. Laranja Mec\u00e2nica",
+      "ano": "1971",
+      "duracao": "2h 16m",
+      "classificacao": "(Banned)"
+    },
+    {
+      "nome": "110. Fogo Contra Fogo",
+      "ano": "1995",
+      "duracao": "2h 50m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "111. Up: Altas Aventuras",
+      "ano": "2009",
+      "duracao": "1h 36m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "112. O Sol \u00e9 para Todos",
+      "ano": "1962",
+      "duracao": "2h 9m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "113. Golpe de Mestre",
+      "ano": "1973",
+      "duracao": "2h 9m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "114. A Separa\u00e7\u00e3o",
+      "ano": "2011",
+      "duracao": "2h 3m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "115. Indiana Jones e a \u00daltima Cruzada",
+      "ano": "1989",
+      "duracao": "2h 7m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "116. Hamilton",
+      "ano": "2020",
+      "duracao": "2h 40m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "117. Duro de Matar",
+      "ano": "1988",
+      "duracao": "2h 12m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "118. Metr\u00f3polis",
+      "ano": "1927",
+      "duracao": "2h 33m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "119. Como Estrelas na Terra",
+      "ano": "2007",
+      "duracao": "2h 42m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "120. Snatch - Porcos e Diamantes",
+      "ano": "2000",
+      "duracao": "1h 44m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "121. Ladr\u00f5es de Bicicletas",
+      "ano": "1948",
+      "duracao": "1h 29m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "122. Los Angeles: Cidade Proibida",
+      "ano": "1997",
+      "duracao": "2h 18m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "123. 1917",
+      "ano": "2019",
+      "duracao": "1h 59m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "124. Taxi Driver: Motorista de T\u00e1xi",
+      "ano": "1976",
+      "duracao": "1h 54m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "125. A Queda! As \u00daltimas Horas de Hitler",
+      "ano": "2004",
+      "duracao": "2h 36m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "126. Dangal",
+      "ano": "2016",
+      "duracao": "2h 41m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "127. Por uns D\u00f3lares a Mais",
+      "ano": "1965",
+      "duracao": "2h 12m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "128. Batman Begins",
+      "ano": "2005",
+      "duracao": "2h 20m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "129. Quanto Mais Quente Melhor",
+      "ano": "1959",
+      "duracao": "2h 1m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "130. Top Gun: Maverick",
+      "ano": "2022",
+      "duracao": "2h 10m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "131. O Lobo de Wall Street",
+      "ano": "2013",
+      "duracao": "3h",
+      "classificacao": "18"
+    },
+    {
+      "nome": "132. O Garoto",
+      "ano": "1921",
+      "duracao": "1h 8m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "133. Meu Pai",
+      "ano": "2020",
+      "duracao": "1h 37m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "134. Green Book: O Guia",
+      "ano": "2018",
+      "duracao": "2h 10m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "135. A Malvada",
+      "ano": "1950",
+      "duracao": "2h 18m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "136. Julgamento em Nuremberg",
+      "ano": "1961",
+      "duracao": "2h 59m",
+      "classificacao": "Approved"
+    },
+    {
+      "nome": "137. O Show de Truman: O Show da Vida",
+      "ano": "1998",
+      "duracao": "1h 43m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "138. Sangue Negro",
+      "ano": "2007",
+      "duracao": "2h 38m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "139. Cassino",
+      "ano": "1995",
+      "duracao": "2h 58m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "140. Ilha do Medo",
+      "ano": "2010",
+      "duracao": "2h 18m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "141. Ran",
+      "ano": "1985",
+      "duracao": "2h 40m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "142. Jurassic Park - O Parque dos Dinossauros",
+      "ano": "1993",
+      "duracao": "2h 7m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "143. O Labirinto do Fauno",
+      "ano": "2006",
+      "duracao": "1h 58m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "144. O Sexto Sentido",
+      "ano": "1999",
+      "duracao": "1h 47m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "145. Os Imperdo\u00e1veis",
+      "ano": "1992",
+      "duracao": "2h 10m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "146. Uma Mente Brilhante",
+      "ano": "2001",
+      "duracao": "2h 15m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "147. Onde os Fracos N\u00e3o T\u00eam Vez",
+      "ano": "2007",
+      "duracao": "2h 2m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "148. O Tesouro da Sierra Madre",
+      "ano": "1948",
+      "duracao": "2h 6m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "149. Yojimbo, o Guarda-Costas",
+      "ano": "1961",
+      "duracao": "1h 50m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "150. O Enigma de Outro Mundo",
+      "ano": "1982",
+      "duracao": "1h 49m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "151. Kill Bill: Volume 1",
+      "ano": "2003",
+      "duracao": "1h 51m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "152. Monty Python em Busca do C\u00e1lice Sagrado",
+      "ano": "1975",
+      "duracao": "1h 31m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "153. Fugindo do Inferno",
+      "ano": "1963",
+      "duracao": "2h 52m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "154. Procurando Nemo",
+      "ano": "2003",
+      "duracao": "1h 40m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "155. Rashomon",
+      "ano": "1950",
+      "duracao": "1h 28m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "156. O Homem Elefante",
+      "ano": "1980",
+      "duracao": "2h 4m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "157. Chinatown",
+      "ano": "1974",
+      "duracao": "2h 10m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "158. O Castelo Animado",
+      "ano": "2004",
+      "duracao": "1h 59m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "159. Disque M para Matar",
+      "ano": "1954",
+      "duracao": "1h 45m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "160. Os Suspeitos",
+      "ano": "2013",
+      "duracao": "2h 33m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "161. ...E o Vento Levou",
+      "ano": "1939",
+      "duracao": "3h 58m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "162. V de Vingan\u00e7a",
+      "ano": "2005",
+      "duracao": "2h 12m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "163. Touro Indom\u00e1vel",
+      "ano": "1980",
+      "duracao": "2h 9m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "164. Jogos, Trapa\u00e7as e Dois Canos Fumegantes",
+      "ano": "1998",
+      "duracao": "1h 47m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "165. O Segredo dos Seus Olhos",
+      "ano": "2009",
+      "duracao": "2h 9m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "166. Divertida Mente",
+      "ano": "2015",
+      "duracao": "1h 35m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "167. Tr\u00eas An\u00fancios para um Crime",
+      "ano": "2017",
+      "duracao": "1h 55m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "168. Homem-Aranha: Sem Volta para Casa",
+      "ano": "2021",
+      "duracao": "2h 28m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "169. Trainspotting: Sem Limites",
+      "ano": "1996",
+      "duracao": "1h 33m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "170. A Ponte do Rio Kwai",
+      "ano": "1957",
+      "duracao": "2h 41m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "171. Fargo: Uma Com\u00e9dia de Erros",
+      "ano": "1996",
+      "duracao": "1h 38m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "172. Guerreiro",
+      "ano": "2011",
+      "duracao": "2h 20m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "173. Prenda-me se for Capaz",
+      "ano": "2002",
+      "duracao": "2h 21m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "174. Gran Torino",
+      "ano": "2008",
+      "duracao": "1h 56m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "175. Klaus",
+      "ano": "2019",
+      "duracao": "1h 36m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "176. Godzilla Minus One",
+      "ano": "2023",
+      "duracao": "2h 4m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "177. Meu Amigo Totoro",
+      "ano": "1988",
+      "duracao": "1h 26m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "178. Menina de Ouro",
+      "ano": "2004",
+      "duracao": "2h 12m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "179. Harry Potter e as Rel\u00edquias da Morte - Parte 2",
+      "ano": "2011",
+      "duracao": "2h 10m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "180. Filhos do Para\u00edso",
+      "ano": "1997",
+      "duracao": "1h 29m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "181. Blade Runner: O Ca\u00e7ador de Androides",
+      "ano": "1982",
+      "duracao": "1h 57m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "182. 12 Anos de Escravid\u00e3o",
+      "ano": "2013",
+      "duracao": "2h 14m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "183. Antes do Amanhecer",
+      "ano": "1995",
+      "duracao": "1h 41m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "184. O Grande Hotel Budapeste",
+      "ano": "2014",
+      "duracao": "1h 39m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "185. Ben-Hur",
+      "ano": "1959",
+      "duracao": "3h 32m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "186. Barry Lyndon",
+      "ano": "1975",
+      "duracao": "3h 5m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "187. Garota Exemplar",
+      "ano": "2014",
+      "duracao": "2h 29m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "188. Em Busca do Ouro",
+      "ano": "1925",
+      "duracao": "1h 35m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "189. At\u00e9 o \u00daltimo Homem",
+      "ano": "2016",
+      "duracao": "2h 19m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "190. Em Nome do Pai",
+      "ano": "1993",
+      "duracao": "2h 13m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "191. Mem\u00f3rias de um Assassino",
+      "ano": "2003",
+      "duracao": "2h 11m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "192. Sindicato de Ladr\u00f5es",
+      "ano": "1954",
+      "duracao": "1h 48m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "193. A General",
+      "ano": "1926",
+      "duracao": "1h 18m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "194. O Franco Atirador",
+      "ano": "1978",
+      "duracao": "3h 3m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "195. Relatos Selvagens",
+      "ano": "2014",
+      "duracao": "2h 2m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "196. Sociedade dos Poetas Mortos",
+      "ano": "1989",
+      "duracao": "2h 8m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "197. Morangos Silvestres",
+      "ano": "1957",
+      "duracao": "1h 31m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "198. Mad Max: Estrada da F\u00faria",
+      "ano": "2015",
+      "duracao": "2h",
+      "classificacao": "16"
+    },
+    {
+      "nome": "199. O 3\u00ba Homem",
+      "ano": "1949",
+      "duracao": "1h 44m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "200. O Sal\u00e1rio do Medo",
+      "ano": "1953",
+      "duracao": "2h 11m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "201. Bancando o \u00c1guia",
+      "ano": "1924",
+      "duracao": "45m",
+      "classificacao": "Passed"
+    },
+    {
+      "nome": "202. Monstros S.A.",
+      "ano": "2001",
+      "duracao": "1h 32m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "203. Tubar\u00e3o",
+      "ano": "1975",
+      "duracao": "2h 4m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "204. A Mulher Faz o Homem",
+      "ano": "1939",
+      "duracao": "2h 9m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "205. Como Treinar o Seu Drag\u00e3o",
+      "ano": "2010",
+      "duracao": "1h 38m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "206. Mary e Max: Uma Amizade Diferente",
+      "ano": "2009",
+      "duracao": "1h 32m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "207. Ford vs Ferrari",
+      "ano": "2019",
+      "duracao": "2h 32m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "208. O S\u00e9timo Selo",
+      "ano": "1957",
+      "duracao": "1h 36m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "209. Ratatouille",
+      "ano": "2007",
+      "duracao": "1h 51m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "210. O Quarto de Jack",
+      "ano": "2015",
+      "duracao": "1h 58m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "211. O Grande Lebowski",
+      "ano": "1998",
+      "duracao": "1h 57m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "212. Era uma Vez em T\u00f3quio",
+      "ano": "1953",
+      "duracao": "2h 16m",
+      "classificacao": "10"
+    },
+    {
+      "nome": "213. Rocky - Um Lutador",
+      "ano": "1976",
+      "duracao": "2h",
+      "classificacao": "12"
+    },
+    {
+      "nome": "214. Hotel Ruanda",
+      "ano": "2004",
+      "duracao": "2h 1m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "215. Logan",
+      "ano": "2017",
+      "duracao": "2h 17m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "216. Spotlight - Segredos Revelados",
+      "ano": "2015",
+      "duracao": "2h 9m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "217. Platoon",
+      "ano": "1986",
+      "duracao": "2h",
+      "classificacao": "14"
+    },
+    {
+      "nome": "218. O Mart\u00edrio de Joana D'Arc",
+      "ano": "1928",
+      "duracao": "1h 50m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "219. O Exterminador do Futuro",
+      "ano": "1984",
+      "duracao": "1h 47m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "220. Jai Bhim",
+      "ano": "2021",
+      "duracao": "2h 44m",
+      "classificacao": "TV-MA"
+    },
+    {
+      "nome": "221. Antes do P\u00f4r do Sol",
+      "ano": "2004",
+      "duracao": "1h 20m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "222. Rush: No Limite da Emo\u00e7\u00e3o",
+      "ano": "2013",
+      "duracao": "2h 3m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "223. Rede de Intrigas",
+      "ano": "1976",
+      "duracao": "2h 1m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "224. Os Melhores Anos de Nossa Vida",
+      "ano": "1946",
+      "duracao": "2h 50m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "225. O Exorcista",
+      "ano": "1973",
+      "duracao": "2h 2m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "226. Conta Comigo",
+      "ano": "1986",
+      "duracao": "1h 29m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "227. O \u00d3dio",
+      "ano": "1995",
+      "duracao": "1h 38m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "228. Piratas do Caribe: A Maldi\u00e7\u00e3o do P\u00e9rola Negra",
+      "ano": "2003",
+      "duracao": "2h 23m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "229. O M\u00e1gico de Oz",
+      "ano": "1939",
+      "duracao": "1h 42m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "230. Os Incr\u00edveis",
+      "ano": "2004",
+      "duracao": "1h 55m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "231. Na Natureza Selvagem",
+      "ano": "2007",
+      "duracao": "2h 28m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "232. Sempre ao Seu Lado",
+      "ano": "2009",
+      "duracao": "1h 33m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "233. Ser ou N\u00e3o Ser",
+      "ano": "1942",
+      "duracao": "1h 39m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "234. A Criada",
+      "ano": "2016",
+      "duracao": "2h 25m",
+      "classificacao": "18"
+    },
+    {
+      "nome": "235. Meu Pai e Meu Filho",
+      "ano": "2005",
+      "duracao": "1h 52m",
+      "classificacao": "Not Rated"
+    },
+    {
+      "nome": "236. A Batalha de Argel",
+      "ano": "1966",
+      "duracao": "2h 1m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "237. Feiti\u00e7o do Tempo",
+      "ano": "1993",
+      "duracao": "1h 41m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "238. As Vinhas da Ira",
+      "ano": "1940",
+      "duracao": "2h 9m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "239. A Novi\u00e7a Rebelde",
+      "ano": "1965",
+      "duracao": "2h 52m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "240. Amores Brutos",
+      "ano": "2000",
+      "duracao": "2h 34m",
+      "classificacao": "16"
+    },
+    {
+      "nome": "241. Rebecca, a Mulher Inesquec\u00edvel",
+      "ano": "1940",
+      "duracao": "2h 10m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "242. Rebeldia Indom\u00e1vel",
+      "ano": "1967",
+      "duracao": "2h 7m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "243. O Gigante de Ferro",
+      "ano": "1999",
+      "duracao": "1h 26m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "244. Hist\u00f3rias Cruzadas",
+      "ano": "2011",
+      "duracao": "2h 26m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "245. Aconteceu Naquela Noite",
+      "ano": "1934",
+      "duracao": "1h 45m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "246. A Can\u00e7\u00e3o da Estrada",
+      "ano": "1955",
+      "duracao": "2h 5m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "247. Os Incompreendidos",
+      "ano": "1959",
+      "duracao": "1h 39m",
+      "classificacao": "12"
+    },
+    {
+      "nome": "248. Aladdin",
+      "ano": "1992",
+      "duracao": "1h 30m",
+      "classificacao": "Livre"
+    },
+    {
+      "nome": "249. Dan\u00e7a com Lobos",
+      "ano": "1990",
+      "duracao": "3h 1m",
+      "classificacao": "14"
+    },
+    {
+      "nome": "250. A Chantagem",
+      "ano": "2015",
+      "duracao": "2h 43m",
+      "classificacao": "Not Rated"
+    }
+  ]
+}

@@ -10,9 +10,11 @@ USER_AGENTS_LIST = [
 ]
 
 def get_page():
-  # retorna o conteudo da pagina.
+  # fetch URL
   url = 'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
-  headers = {'User-Agent': random.choice(USER_AGENTS_LIST)}
+  headers = {
+    'User-Agent': random.choice(USER_AGENTS_LIST)
+  }
   page = requests.get(url, headers=headers)
   return page
 
@@ -24,10 +26,8 @@ def get_content_page(page):
 
 def create_json(movies):
   # cria arquivo json
-  json_obj = json.dumps(movies)
-  file = open('filmes.json', 'w')
-  file.write(json_obj)
-  file.close()
+  with open('movies.json', 'w', encoding='utf-8') as json_file:
+    json.dump(movies, json_file, ensure_ascii=False, indent=2)
 
 def main():
   movies = {
@@ -48,7 +48,7 @@ def main():
     div_info_movie = div_content_movie.find('div', 'cli-title-metadata')
     year, duration, rating = div_info_movie
 
-    if div_title_movie not in movies['movies']:
+    if title_movie not in movies['movies']:
       movies['movies'].append({
         'title': title_movie,
         'year': year.get_text(),

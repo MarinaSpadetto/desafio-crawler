@@ -1,1501 +1,1501 @@
 {
   "movies": [
     {
-      "title": "1. Um Sonho de Liberdade",
+      "title": "Um Sonho de Liberdade",
       "year": "1994",
       "duration": "2h 22m",
       "rating": "16"
     },
     {
-      "title": "2. O Poderoso Chefão",
+      "title": "O Poderoso Chefão",
       "year": "1972",
       "duration": "2h 55m",
       "rating": "14"
     },
     {
-      "title": "3. Batman - O Cavaleiro das Trevas",
+      "title": "Batman - O Cavaleiro das Trevas",
       "year": "2008",
       "duration": "2h 32m",
       "rating": "12"
     },
     {
-      "title": "4. O Poderoso Chefão II",
+      "title": "O Poderoso Chefão II",
       "year": "1974",
       "duration": "3h 22m",
       "rating": "14"
     },
     {
-      "title": "5. 12 Homens e uma Sentença",
+      "title": "12 Homens e uma Sentença",
       "year": "1957",
       "duration": "1h 36m",
       "rating": "Livre"
     },
     {
-      "title": "6. A Lista de Schindler",
+      "title": "A Lista de Schindler",
       "year": "1993",
       "duration": "3h 15m",
       "rating": "14"
     },
     {
-      "title": "7. O Senhor dos Anéis: O Retorno do Rei",
+      "title": "O Senhor dos Anéis: O Retorno do Rei",
       "year": "2003",
       "duration": "3h 21m",
       "rating": "14"
     },
     {
-      "title": "8. Pulp Fiction - Tempo de Violência",
+      "title": "Pulp Fiction - Tempo de Violência",
       "year": "1994",
       "duration": "2h 34m",
       "rating": "18"
     },
     {
-      "title": "9. O Senhor dos Anéis: A Sociedade do Anel",
+      "title": "O Senhor dos Anéis: A Sociedade do Anel",
       "year": "2001",
       "duration": "2h 58m",
       "rating": "12"
     },
     {
-      "title": "10. Três Homens em Conflito",
+      "title": "Três Homens em Conflito",
       "year": "1966",
       "duration": "2h 41m",
       "rating": "14"
     },
     {
-      "title": "11. Forrest Gump: O Contador de Histórias",
+      "title": "Forrest Gump: O Contador de Histórias",
       "year": "1994",
       "duration": "2h 22m",
       "rating": "14"
     },
     {
-      "title": "12. Clube da Luta",
+      "title": "Clube da Luta",
       "year": "1999",
       "duration": "2h 19m",
       "rating": "18"
     },
     {
-      "title": "13. O Senhor dos Anéis: As Duas Torres",
+      "title": "O Senhor dos Anéis: As Duas Torres",
       "year": "2002",
       "duration": "2h 59m",
       "rating": "12"
     },
     {
-      "title": "14. A Origem",
+      "title": "A Origem",
       "year": "2010",
       "duration": "2h 28m",
       "rating": "14"
     },
     {
-      "title": "15. Star Wars: Episódio V - O Império Contra-Ataca",
+      "title": "Star Wars: Episódio V - O Império Contra-Ataca",
       "year": "1980",
       "duration": "2h 4m",
       "rating": "Livre"
     },
     {
-      "title": "16. Matrix",
+      "title": "Matrix",
       "year": "1999",
       "duration": "2h 16m",
       "rating": "14"
     },
     {
-      "title": "17. Os Bons Companheiros",
+      "title": "Os Bons Companheiros",
       "year": "1990",
       "duration": "2h 25m",
       "rating": "14"
     },
     {
-      "title": "18. Um Estranho no Ninho",
+      "title": "Um Estranho no Ninho",
       "year": "1975",
       "duration": "2h 13m",
       "rating": "16"
     },
     {
-      "title": "19. Seven: Os Sete Crimes Capitais",
+      "title": "Seven: Os Sete Crimes Capitais",
       "year": "1995",
       "duration": "2h 7m",
       "rating": "14"
     },
     {
-      "title": "20. A Felicidade Não se Compra",
+      "title": "A Felicidade Não se Compra",
       "year": "1946",
       "duration": "2h 10m",
       "rating": "Livre"
     },
     {
-      "title": "21. Os Sete Samurais",
+      "title": "Os Sete Samurais",
       "year": "1954",
       "duration": "3h 27m",
       "rating": "10"
     },
     {
-      "title": "22. Interestelar",
+      "title": "Interestelar",
       "year": "2014",
       "duration": "2h 49m",
       "rating": "10"
     },
     {
-      "title": "23. O Silêncio dos Inocentes",
+      "title": "O Silêncio dos Inocentes",
       "year": "1991",
       "duration": "1h 58m",
       "rating": "14"
     },
     {
-      "title": "24. O Resgate do Soldado Ryan",
+      "title": "O Resgate do Soldado Ryan",
       "year": "1998",
       "duration": "2h 49m",
       "rating": "14"
     },
     {
-      "title": "25. Cidade de Deus",
+      "title": "Cidade de Deus",
       "year": "2002",
       "duration": "2h 10m",
       "rating": "18"
     },
     {
-      "title": "26. A Vida é Bela",
+      "title": "A Vida é Bela",
       "year": "1997",
       "duration": "1h 56m",
       "rating": "Livre"
     },
     {
-      "title": "27. À Espera de um Milagre",
+      "title": "À Espera de um Milagre",
       "year": "1999",
       "duration": "3h 9m",
       "rating": "18"
     },
     {
-      "title": "28. Star Wars: Episódio IV - Uma Nova Esperança",
+      "title": "Star Wars: Episódio IV - Uma Nova Esperança",
       "year": "1977",
       "duration": "2h 1m",
       "rating": "Livre"
     },
     {
-      "title": "29. O Exterminador do Futuro 2: O Julgamento Final",
+      "title": "O Exterminador do Futuro 2: O Julgamento Final",
       "year": "1991",
       "duration": "2h 17m",
       "rating": "14"
     },
     {
-      "title": "30. Homem-Aranha: Através do Aranhaverso",
+      "title": "Homem-Aranha: Através do Aranhaverso",
       "year": "2023",
       "duration": "2h 20m",
       "rating": "10"
     },
     {
-      "title": "31. De Volta para o Futuro",
+      "title": "De Volta para o Futuro",
       "year": "1985",
       "duration": "1h 56m",
       "rating": "Livre"
     },
     {
-      "title": "32. A Viagem de Chihiro",
+      "title": "A Viagem de Chihiro",
       "year": "2001",
       "duration": "2h 5m",
       "rating": "Livre"
     },
     {
-      "title": "33. O Pianista",
+      "title": "O Pianista",
       "year": "2002",
       "duration": "2h 30m",
       "rating": "14"
     },
     {
-      "title": "34. Parasita",
+      "title": "Parasita",
       "year": "2019",
       "duration": "2h 12m",
       "rating": "16"
     },
     {
-      "title": "35. Psicose",
+      "title": "Psicose",
       "year": "1960",
       "duration": "1h 49m",
       "rating": "14"
     },
     {
-      "title": "36. Gladiador",
+      "title": "Gladiador",
       "year": "2000",
       "duration": "2h 35m",
       "rating": "14"
     },
     {
-      "title": "37. O Rei Leão",
+      "title": "O Rei Leão",
       "year": "1994",
       "duration": "1h 28m",
       "rating": "Livre"
     },
     {
-      "title": "38. O Profissional",
+      "title": "O Profissional",
       "year": "1994",
       "duration": "1h 50m",
       "rating": "14"
     },
     {
-      "title": "39. A Outra História Americana",
+      "title": "A Outra História Americana",
       "year": "1998",
       "duration": "1h 59m",
       "rating": "14"
     },
     {
-      "title": "40. Os Infiltrados",
+      "title": "Os Infiltrados",
       "year": "2006",
       "duration": "2h 31m",
       "rating": "18"
     },
     {
-      "title": "41. Whiplash: Em Busca da Perfeição",
+      "title": "Whiplash: Em Busca da Perfeição",
       "year": "2014",
       "duration": "1h 46m",
       "rating": "12"
     },
     {
-      "title": "42. O Grande Truque",
+      "title": "O Grande Truque",
       "year": "2006",
       "duration": "2h 10m",
       "rating": "14"
     },
     {
-      "title": "43. Túmulo dos Vagalumes",
+      "title": "Túmulo dos Vagalumes",
       "year": "1988",
       "duration": "1h 29m",
       "rating": "12"
     },
     {
-      "title": "44. Harakiri",
+      "title": "Harakiri",
       "year": "1962",
       "duration": "2h 13m",
       "rating": "16"
     },
     {
-      "title": "45. Os Suspeitos",
+      "title": "Os Suspeitos",
       "year": "1995",
       "duration": "1h 46m",
       "rating": "14"
     },
     {
-      "title": "46. Casablanca",
+      "title": "Casablanca",
       "year": "1942",
       "duration": "1h 42m",
       "rating": "Livre"
     },
     {
-      "title": "47. Intocáveis",
+      "title": "Intocáveis",
       "year": "2011",
       "duration": "1h 52m",
       "rating": "14"
     },
     {
-      "title": "48. Tempos Modernos",
+      "title": "Tempos Modernos",
       "year": "1936",
       "duration": "1h 27m",
       "rating": "Livre"
     },
     {
-      "title": "49. Cinema Paradiso",
+      "title": "Cinema Paradiso",
       "year": "1988",
       "duration": "2h 35m",
       "rating": "10"
     },
     {
-      "title": "50. Janela Indiscreta",
+      "title": "Janela Indiscreta",
       "year": "1954",
       "duration": "1h 52m",
       "rating": "12"
     },
     {
-      "title": "51. Era uma Vez no Oeste",
+      "title": "Era uma Vez no Oeste",
       "year": "1968",
       "duration": "2h 46m",
       "rating": "14"
     },
     {
-      "title": "52. Alien - O 8º Passageiro",
+      "title": "Alien - O 8º Passageiro",
       "year": "1979",
       "duration": "1h 57m",
       "rating": "14"
     },
     {
-      "title": "53. Luzes da Cidade",
+      "title": "Luzes da Cidade",
       "year": "1931",
       "duration": "1h 27m",
       "rating": "Livre"
     },
     {
-      "title": "54. Apocalypse Now",
+      "title": "Apocalypse Now",
       "year": "1979",
       "duration": "2h 27m",
       "rating": "16"
     },
     {
-      "title": "55. Django Livre",
+      "title": "Django Livre",
       "year": "2012",
       "duration": "2h 45m",
       "rating": "16"
     },
     {
-      "title": "56. Amnésia",
+      "title": "Amnésia",
       "year": "2000",
       "duration": "1h 53m",
       "rating": "16"
     },
     {
-      "title": "57. Os Caçadores da Arca Perdida",
+      "title": "Os Caçadores da Arca Perdida",
       "year": "1981",
       "duration": "1h 55m",
       "rating": "Livre"
     },
     {
-      "title": "58. WALL·E",
+      "title": "WALL·E",
       "year": "2008",
       "duration": "1h 38m",
       "rating": "Livre"
     },
     {
-      "title": "59. A Vida dos Outros",
+      "title": "A Vida dos Outros",
       "year": "2006",
       "duration": "2h 17m",
       "rating": "12"
     },
     {
-      "title": "60. Crepúsculo dos Deuses",
+      "title": "Crepúsculo dos Deuses",
       "year": "1950",
       "duration": "1h 50m",
       "rating": "Livre"
     },
     {
-      "title": "61. Glória Feita de Sangue",
+      "title": "Glória Feita de Sangue",
       "year": "1957",
       "duration": "1h 28m",
       "rating": "14"
     },
     {
-      "title": "62. Vingadores: Guerra Infinita",
+      "title": "Vingadores: Guerra Infinita",
       "year": "2018",
       "duration": "2h 29m",
       "rating": "12"
     },
     {
-      "title": "63. Homem-Aranha: No Aranhaverso",
+      "title": "Homem-Aranha: No Aranhaverso",
       "year": "2018",
       "duration": "1h 57m",
       "rating": "10"
     },
     {
-      "title": "64. O Iluminado",
+      "title": "O Iluminado",
       "year": "1980",
       "duration": "2h 26m",
       "rating": "16"
     },
     {
-      "title": "65. Testemunha de Acusação",
+      "title": "Testemunha de Acusação",
       "year": "1957",
       "duration": "1h 56m",
       "rating": "12"
     },
     {
-      "title": "66. O Grande Ditador",
+      "title": "O Grande Ditador",
       "year": "1940",
       "duration": "2h 5m",
       "rating": "Livre"
     },
     {
-      "title": "67. Aliens, O Resgate",
+      "title": "Aliens, O Resgate",
       "year": "1986",
       "duration": "2h 17m",
       "rating": "14"
     },
     {
-      "title": "68. Oppenheimer",
+      "title": "Oppenheimer",
       "year": "2023",
       "duration": "3h",
       "rating": "16"
     },
     {
-      "title": "69. Bastardos Inglórios",
+      "title": "Bastardos Inglórios",
       "year": "2009",
       "duration": "2h 33m",
       "rating": "18"
     },
     {
-      "title": "70. Batman - O Cavaleiro das Trevas Ressurge",
+      "title": "Batman - O Cavaleiro das Trevas Ressurge",
       "year": "2012",
       "duration": "2h 44m",
       "rating": "12"
     },
     {
-      "title": "71. Beleza Americana",
+      "title": "Beleza Americana",
       "year": "1999",
       "duration": "2h 2m",
       "rating": "14"
     },
     {
-      "title": "72. Dr. Fantástico",
+      "title": "Dr. Fantástico",
       "year": "1964",
       "duration": "1h 35m",
       "rating": "10"
     },
     {
-      "title": "73. Oldboy",
+      "title": "Oldboy",
       "year": "2003",
       "duration": "2h",
       "rating": "16"
     },
     {
-      "title": "74. Viva - A Vida é uma Festa",
+      "title": "Viva - A Vida é uma Festa",
       "year": "2017",
       "duration": "1h 45m",
       "rating": "Livre"
     },
     {
-      "title": "75. Amadeus",
+      "title": "Amadeus",
       "year": "1984",
       "duration": "2h 40m",
       "rating": "Livre"
     },
     {
-      "title": "76. Toy Story",
+      "title": "Toy Story",
       "year": "1995",
       "duration": "1h 21m",
       "rating": "Livre"
     },
     {
-      "title": "77. O Barco: Inferno no Mar",
+      "title": "O Barco: Inferno no Mar",
       "year": "1981",
       "duration": "2h 29m",
       "rating": "14"
     },
     {
-      "title": "78. Coração Valente",
+      "title": "Coração Valente",
       "year": "1995",
       "duration": "2h 58m",
       "rating": "16"
     },
     {
-      "title": "79. Vingadores: Ultimato",
+      "title": "Vingadores: Ultimato",
       "year": "2019",
       "duration": "3h 1m",
       "rating": "12"
     },
     {
-      "title": "80. Coringa",
+      "title": "Coringa",
       "year": "2019",
       "duration": "2h 2m",
       "rating": "16"
     },
     {
-      "title": "81. Princesa Mononoke",
+      "title": "Princesa Mononoke",
       "year": "1997",
       "duration": "2h 14m",
       "rating": "12"
     },
     {
-      "title": "82. Gênio Indomável",
+      "title": "Gênio Indomável",
       "year": "1997",
       "duration": "2h 6m",
       "rating": "14"
     },
     {
-      "title": "83. Your Name.",
+      "title": "Your Name.",
       "year": "2016",
       "duration": "1h 46m",
       "rating": "Livre"
     },
     {
-      "title": "84. Era uma Vez na América",
+      "title": "Era uma Vez na América",
       "year": "1984",
       "duration": "3h 49m",
       "rating": "18"
     },
     {
-      "title": "85. 3 Idiotas",
+      "title": "3 Idiotas",
       "year": "2009",
       "duration": "2h 50m",
       "rating": "12"
     },
     {
-      "title": "86. Céu E Inferno",
+      "title": "Céu E Inferno",
       "year": "1963",
       "duration": "2h 23m",
       "rating": "Not Rated"
     },
     {
-      "title": "87. Cantando na Chuva",
+      "title": "Cantando na Chuva",
       "year": "1952",
       "duration": "1h 43m",
       "rating": "Livre"
     },
     {
-      "title": "88. Cafarnaum",
+      "title": "Cafarnaum",
       "year": "2018",
       "duration": "2h 6m",
       "rating": "16"
     },
     {
-      "title": "89. Réquiem para um Sonho",
+      "title": "Réquiem para um Sonho",
       "year": "2000",
       "duration": "1h 42m",
       "rating": "18"
     },
     {
-      "title": "90. Vá e Veja",
+      "title": "Vá e Veja",
       "year": "1985",
       "duration": "2h 22m",
       "rating": "18"
     },
     {
-      "title": "91. Toy Story 3",
+      "title": "Toy Story 3",
       "year": "2010",
       "duration": "1h 43m",
       "rating": "Livre"
     },
     {
-      "title": "92. Star Wars, Episódio VI: O Retorno do Jedi",
+      "title": "Star Wars, Episódio VI: O Retorno do Jedi",
       "year": "1983",
       "duration": "2h 11m",
       "rating": "Livre"
     },
     {
-      "title": "93. Brilho Eterno de uma Mente sem Lembranças",
+      "title": "Brilho Eterno de uma Mente sem Lembranças",
       "year": "2004",
       "duration": "1h 48m",
       "rating": "14"
     },
     {
-      "title": "94. A Caça",
+      "title": "A Caça",
       "year": "2012",
       "duration": "1h 55m",
       "rating": "14"
     },
     {
-      "title": "95. 2001: Uma Odisséia no Espaço",
+      "title": "2001: Uma Odisséia no Espaço",
       "year": "1968",
       "duration": "2h 29m",
       "rating": "Livre"
     },
     {
-      "title": "96. Cães de Aluguel",
+      "title": "Cães de Aluguel",
       "year": "1992",
       "duration": "1h 39m",
       "rating": "18"
     },
     {
-      "title": "97. Viver",
+      "title": "Viver",
       "year": "1952",
       "duration": "2h 23m",
       "rating": "Not Rated"
     },
     {
-      "title": "98. Lawrence da Arábia",
+      "title": "Lawrence da Arábia",
       "year": "1962",
       "duration": "3h 38m",
       "rating": "14"
     },
     {
-      "title": "99. Se Meu Apartamento Falasse",
+      "title": "Se Meu Apartamento Falasse",
       "year": "1960",
       "duration": "2h 5m",
       "rating": "Livre"
     },
     {
-      "title": "100. Cidadão Kane",
+      "title": "Cidadão Kane",
       "year": "1941",
       "duration": "1h 59m",
       "rating": "Livre"
     },
     {
-      "title": "101. M, o Vampiro de Dusseldorf",
+      "title": "M, o Vampiro de Dusseldorf",
       "year": "1931",
       "duration": "1h 57m",
       "rating": "12"
     },
     {
-      "title": "102. Intriga Internacional",
+      "title": "Intriga Internacional",
       "year": "1959",
       "duration": "2h 16m",
       "rating": "14"
     },
     {
-      "title": "103. Um Corpo que Cai",
+      "title": "Um Corpo que Cai",
       "year": "1958",
       "duration": "2h 8m",
       "rating": "14"
     },
     {
-      "title": "104. Pacto de Sangue",
+      "title": "Pacto de Sangue",
       "year": "1944",
       "duration": "1h 47m",
       "rating": "14"
     },
     {
-      "title": "105. Scarface",
+      "title": "Scarface",
       "year": "1983",
       "duration": "2h 50m",
       "rating": "18"
     },
     {
-      "title": "106. O Fabuloso Destino de Amélie Poulain",
+      "title": "O Fabuloso Destino de Amélie Poulain",
       "year": "2001",
       "duration": "2h 2m",
       "rating": "14"
     },
     {
-      "title": "107. Nascido para Matar",
+      "title": "Nascido para Matar",
       "year": "1987",
       "duration": "1h 56m",
       "rating": "16"
     },
     {
-      "title": "108. Incêndios",
+      "title": "Incêndios",
       "year": "2010",
       "duration": "2h 11m",
       "rating": "14"
     },
     {
-      "title": "109. Laranja Mecânica",
+      "title": "Laranja Mecânica",
       "year": "1971",
       "duration": "2h 16m",
       "rating": "(Banned)"
     },
     {
-      "title": "110. Fogo Contra Fogo",
+      "title": "Fogo Contra Fogo",
       "year": "1995",
       "duration": "2h 50m",
       "rating": "14"
     },
     {
-      "title": "111. Up: Altas Aventuras",
+      "title": "Up: Altas Aventuras",
       "year": "2009",
       "duration": "1h 36m",
       "rating": "Livre"
     },
     {
-      "title": "112. O Sol é para Todos",
+      "title": "O Sol é para Todos",
       "year": "1962",
       "duration": "2h 9m",
       "rating": "12"
     },
     {
-      "title": "113. Golpe de Mestre",
+      "title": "Golpe de Mestre",
       "year": "1973",
       "duration": "2h 9m",
       "rating": "18"
     },
     {
-      "title": "114. A Separação",
+      "title": "A Separação",
       "year": "2011",
       "duration": "2h 3m",
       "rating": "12"
     },
     {
-      "title": "115. Hamilton",
+      "title": "Hamilton",
       "year": "2020",
       "duration": "2h 40m",
       "rating": "12"
     },
     {
-      "title": "116. Indiana Jones e a Última Cruzada",
+      "title": "Indiana Jones e a Última Cruzada",
       "year": "1989",
       "duration": "2h 7m",
       "rating": "Livre"
     },
     {
-      "title": "117. Duro de Matar",
+      "title": "Duro de Matar",
       "year": "1988",
       "duration": "2h 12m",
       "rating": "14"
     },
     {
-      "title": "118. Metrópolis",
+      "title": "Metrópolis",
       "year": "1927",
       "duration": "2h 33m",
       "rating": "Livre"
     },
     {
-      "title": "119. Como Estrelas na Terra",
+      "title": "Como Estrelas na Terra",
       "year": "2007",
       "duration": "2h 42m",
       "rating": "Livre"
     },
     {
-      "title": "120. Snatch - Porcos e Diamantes",
+      "title": "Snatch - Porcos e Diamantes",
       "year": "2000",
       "duration": "1h 44m",
       "rating": "16"
     },
     {
-      "title": "121. Ladrões de Bicicletas",
+      "title": "Ladrões de Bicicletas",
       "year": "1948",
       "duration": "1h 29m",
       "rating": "10"
     },
     {
-      "title": "122. Los Angeles: Cidade Proibida",
+      "title": "Los Angeles: Cidade Proibida",
       "year": "1997",
       "duration": "2h 18m",
       "rating": "18"
     },
     {
-      "title": "123. 1917",
+      "title": "1917",
       "year": "2019",
       "duration": "1h 59m",
       "rating": "14"
     },
     {
-      "title": "124. Taxi Driver: Motorista de Táxi",
+      "title": "Taxi Driver: Motorista de Táxi",
       "year": "1976",
       "duration": "1h 54m",
       "rating": "14"
     },
     {
-      "title": "125. A Queda! As Últimas Horas de Hitler",
+      "title": "A Queda! As Últimas Horas de Hitler",
       "year": "2004",
       "duration": "2h 36m",
       "rating": "16"
     },
     {
-      "title": "126. Dangal",
+      "title": "Dangal",
       "year": "2016",
       "duration": "2h 41m",
       "rating": "10"
     },
     {
-      "title": "127. Por uns Dólares a Mais",
+      "title": "Por uns Dólares a Mais",
       "year": "1965",
       "duration": "2h 12m",
       "rating": "12"
     },
     {
-      "title": "128. Batman Begins",
+      "title": "Batman Begins",
       "year": "2005",
       "duration": "2h 20m",
       "rating": "10"
     },
     {
-      "title": "129. Quanto Mais Quente Melhor",
+      "title": "Quanto Mais Quente Melhor",
       "year": "1959",
       "duration": "2h 1m",
       "rating": "Livre"
     },
     {
-      "title": "130. Top Gun: Maverick",
+      "title": "Top Gun: Maverick",
       "year": "2022",
       "duration": "2h 10m",
       "rating": "12"
     },
     {
-      "title": "131. O Lobo de Wall Street",
+      "title": "O Lobo de Wall Street",
       "year": "2013",
       "duration": "3h",
       "rating": "18"
     },
     {
-      "title": "132. O Garoto",
+      "title": "O Garoto",
       "year": "1921",
       "duration": "1h 8m",
       "rating": "Livre"
     },
     {
-      "title": "133. Meu Pai",
+      "title": "Meu Pai",
       "year": "2020",
       "duration": "1h 37m",
       "rating": "12"
     },
     {
-      "title": "134. Green Book: O Guia",
+      "title": "Green Book: O Guia",
       "year": "2018",
       "duration": "2h 10m",
       "rating": "12"
     },
     {
-      "title": "135. A Malvada",
+      "title": "A Malvada",
       "year": "1950",
       "duration": "2h 18m",
       "rating": "Livre"
     },
     {
-      "title": "136. Julgamento em Nuremberg",
+      "title": "Julgamento em Nuremberg",
       "year": "1961",
       "duration": "2h 59m",
       "rating": "Approved"
     },
     {
-      "title": "137. O Show de Truman: O Show da Vida",
+      "title": "O Show de Truman: O Show da Vida",
       "year": "1998",
       "duration": "1h 43m",
       "rating": "12"
     },
     {
-      "title": "138. Sangue Negro",
+      "title": "Sangue Negro",
       "year": "2007",
       "duration": "2h 38m",
       "rating": "14"
     },
     {
-      "title": "139. Cassino",
+      "title": "Cassino",
       "year": "1995",
       "duration": "2h 58m",
       "rating": "18"
     },
     {
-      "title": "140. Ilha do Medo",
+      "title": "Ilha do Medo",
       "year": "2010",
       "duration": "2h 18m",
       "rating": "16"
     },
     {
-      "title": "141. Ran",
+      "title": "Ran",
       "year": "1985",
       "duration": "2h 40m",
       "rating": "16"
     },
     {
-      "title": "142. Jurassic Park - O Parque dos Dinossauros",
+      "title": "Jurassic Park - O Parque dos Dinossauros",
       "year": "1993",
       "duration": "2h 7m",
       "rating": "Livre"
     },
     {
-      "title": "143. O Labirinto do Fauno",
+      "title": "O Labirinto do Fauno",
       "year": "2006",
       "duration": "1h 58m",
       "rating": "16"
     },
     {
-      "title": "144. O Sexto Sentido",
+      "title": "O Sexto Sentido",
       "year": "1999",
       "duration": "1h 47m",
       "rating": "12"
     },
     {
-      "title": "145. Os Imperdoáveis",
+      "title": "Os Imperdoáveis",
       "year": "1992",
       "duration": "2h 10m",
       "rating": "12"
     },
     {
-      "title": "146. Uma Mente Brilhante",
+      "title": "Uma Mente Brilhante",
       "year": "2001",
       "duration": "2h 15m",
       "rating": "12"
     },
     {
-      "title": "147. Onde os Fracos Não Têm Vez",
+      "title": "Onde os Fracos Não Têm Vez",
       "year": "2007",
       "duration": "2h 2m",
       "rating": "16"
     },
     {
-      "title": "148. O Tesouro da Sierra Madre",
+      "title": "O Tesouro da Sierra Madre",
       "year": "1948",
       "duration": "2h 6m",
       "rating": "Livre"
     },
     {
-      "title": "149. Yojimbo, o Guarda-Costas",
+      "title": "Yojimbo, o Guarda-Costas",
       "year": "1961",
       "duration": "1h 50m",
       "rating": "Livre"
     },
     {
-      "title": "150. O Enigma de Outro Mundo",
+      "title": "O Enigma de Outro Mundo",
       "year": "1982",
       "duration": "1h 49m",
       "rating": "14"
     },
     {
-      "title": "151. Kill Bill: Volume 1",
+      "title": "Kill Bill: Volume 1",
       "year": "2003",
       "duration": "1h 51m",
       "rating": "18"
     },
     {
-      "title": "152. Monty Python em Busca do Cálice Sagrado",
+      "title": "Monty Python em Busca do Cálice Sagrado",
       "year": "1975",
       "duration": "1h 31m",
       "rating": "Livre"
     },
     {
-      "title": "153. Fugindo do Inferno",
+      "title": "Fugindo do Inferno",
       "year": "1963",
       "duration": "2h 52m",
       "rating": "12"
     },
     {
-      "title": "154. Procurando Nemo",
+      "title": "Procurando Nemo",
       "year": "2003",
       "duration": "1h 40m",
       "rating": "Livre"
     },
     {
-      "title": "155. Rashomon",
+      "title": "Rashomon",
       "year": "1950",
       "duration": "1h 28m",
       "rating": "14"
     },
     {
-      "title": "156. O Homem Elefante",
+      "title": "O Homem Elefante",
       "year": "1980",
       "duration": "2h 4m",
       "rating": "10"
     },
     {
-      "title": "157. Chinatown",
+      "title": "Chinatown",
       "year": "1974",
       "duration": "2h 10m",
       "rating": "12"
     },
     {
-      "title": "158. O Castelo Animado",
+      "title": "O Castelo Animado",
       "year": "2004",
       "duration": "1h 59m",
       "rating": "Livre"
     },
     {
-      "title": "159. Os Suspeitos",
+      "title": "Os Suspeitos",
       "year": "2013",
       "duration": "2h 33m",
       "rating": "16"
     },
     {
-      "title": "160. Disque M para Matar",
+      "title": "Disque M para Matar",
       "year": "1954",
       "duration": "1h 45m",
       "rating": "16"
     },
     {
-      "title": "161. ...E o Vento Levou",
+      "title": "...E o Vento Levou",
       "year": "1939",
       "duration": "3h 58m",
       "rating": "Livre"
     },
     {
-      "title": "162. V de Vingança",
+      "title": "V de Vingança",
       "year": "2005",
       "duration": "2h 12m",
       "rating": "16"
     },
     {
-      "title": "163. Jogos, Trapaças e Dois Canos Fumegantes",
+      "title": "Jogos, Trapaças e Dois Canos Fumegantes",
       "year": "1998",
       "duration": "1h 47m",
       "rating": "18"
     },
     {
-      "title": "164. Touro Indomável",
+      "title": "Touro Indomável",
       "year": "1980",
       "duration": "2h 9m",
       "rating": "16"
     },
     {
-      "title": "165. O Segredo dos Seus Olhos",
+      "title": "O Segredo dos Seus Olhos",
       "year": "2009",
       "duration": "2h 9m",
       "rating": "16"
     },
     {
-      "title": "166. Divertida Mente",
+      "title": "Divertida Mente",
       "year": "2015",
       "duration": "1h 35m",
       "rating": "Livre"
     },
     {
-      "title": "167. Três Anúncios para um Crime",
+      "title": "Três Anúncios para um Crime",
       "year": "2017",
       "duration": "1h 55m",
       "rating": "16"
     },
     {
-      "title": "168. Homem-Aranha: Sem Volta para Casa",
+      "title": "Homem-Aranha: Sem Volta para Casa",
       "year": "2021",
       "duration": "2h 28m",
       "rating": "12"
     },
     {
-      "title": "169. Trainspotting: Sem Limites",
+      "title": "Trainspotting: Sem Limites",
       "year": "1996",
       "duration": "1h 33m",
       "rating": "18"
     },
     {
-      "title": "170. A Ponte do Rio Kwai",
+      "title": "A Ponte do Rio Kwai",
       "year": "1957",
       "duration": "2h 41m",
       "rating": "12"
     },
     {
-      "title": "171. Fargo: Uma Comédia de Erros",
+      "title": "Fargo: Uma Comédia de Erros",
       "year": "1996",
       "duration": "1h 38m",
       "rating": "18"
     },
     {
-      "title": "172. Godzilla Minus One",
+      "title": "Godzilla Minus One",
       "year": "2023",
       "duration": "2h 4m",
       "rating": "12"
     },
     {
-      "title": "173. Guerreiro",
+      "title": "Guerreiro",
       "year": "2011",
       "duration": "2h 20m",
       "rating": "12"
     },
     {
-      "title": "174. Prenda-me se for Capaz",
+      "title": "Prenda-me se for Capaz",
       "year": "2002",
       "duration": "2h 21m",
       "rating": "12"
     },
     {
-      "title": "175. Klaus",
+      "title": "Klaus",
       "year": "2019",
       "duration": "1h 36m",
       "rating": "10"
     },
     {
-      "title": "176. Gran Torino",
+      "title": "Gran Torino",
       "year": "2008",
       "duration": "1h 56m",
       "rating": "14"
     },
     {
-      "title": "177. Meu Amigo Totoro",
+      "title": "Meu Amigo Totoro",
       "year": "1988",
       "duration": "1h 26m",
       "rating": "Livre"
     },
     {
-      "title": "178. Menina de Ouro",
+      "title": "Menina de Ouro",
       "year": "2004",
       "duration": "2h 12m",
       "rating": "12"
     },
     {
-      "title": "179. Harry Potter e as Relíquias da Morte - Parte 2",
+      "title": "Harry Potter e as Relíquias da Morte - Parte 2",
       "year": "2011",
       "duration": "2h 10m",
       "rating": "12"
     },
     {
-      "title": "180. Filhos do Paraíso",
+      "title": "Filhos do Paraíso",
       "year": "1997",
       "duration": "1h 29m",
       "rating": "Livre"
     },
     {
-      "title": "181. Blade Runner: O Caçador de Androides",
+      "title": "Blade Runner: O Caçador de Androides",
       "year": "1982",
       "duration": "1h 57m",
       "rating": "14"
     },
     {
-      "title": "182. 12 Anos de Escravidão",
+      "title": "12 Anos de Escravidão",
       "year": "2013",
       "duration": "2h 14m",
       "rating": "14"
     },
     {
-      "title": "183. Antes do Amanhecer",
+      "title": "Antes do Amanhecer",
       "year": "1995",
       "duration": "1h 41m",
       "rating": "12"
     },
     {
-      "title": "184. O Grande Hotel Budapeste",
+      "title": "O Grande Hotel Budapeste",
       "year": "2014",
       "duration": "1h 39m",
       "rating": "14"
     },
     {
-      "title": "185. Ben-Hur",
+      "title": "Ben-Hur",
       "year": "1959",
       "duration": "3h 32m",
       "rating": "Livre"
     },
     {
-      "title": "186. Barry Lyndon",
+      "title": "Barry Lyndon",
       "year": "1975",
       "duration": "3h 5m",
       "rating": "Livre"
     },
     {
-      "title": "187. Garota Exemplar",
+      "title": "Garota Exemplar",
       "year": "2014",
       "duration": "2h 29m",
       "rating": "14"
     },
     {
-      "title": "188. Em Busca do Ouro",
+      "title": "Em Busca do Ouro",
       "year": "1925",
       "duration": "1h 35m",
       "rating": "Livre"
     },
     {
-      "title": "189. Até o Último Homem",
+      "title": "Até o Último Homem",
       "year": "2016",
       "duration": "2h 19m",
       "rating": "16"
     },
     {
-      "title": "190. Em Nome do Pai",
+      "title": "Em Nome do Pai",
       "year": "1993",
       "duration": "2h 13m",
       "rating": "16"
     },
     {
-      "title": "191. Memórias de um Assassino",
+      "title": "Memórias de um Assassino",
       "year": "2003",
       "duration": "2h 11m",
       "rating": "14"
     },
     {
-      "title": "192. Sindicato de Ladrões",
+      "title": "Sindicato de Ladrões",
       "year": "1954",
       "duration": "1h 48m",
       "rating": "14"
     },
     {
-      "title": "193. A General",
+      "title": "A General",
       "year": "1926",
       "duration": "1h 18m",
       "rating": "Livre"
     },
     {
-      "title": "194. O Franco Atirador",
+      "title": "O Franco Atirador",
       "year": "1978",
       "duration": "3h 3m",
       "rating": "18"
     },
     {
-      "title": "195. Relatos Selvagens",
+      "title": "Relatos Selvagens",
       "year": "2014",
       "duration": "2h 2m",
       "rating": "14"
     },
     {
-      "title": "196. Sociedade dos Poetas Mortos",
+      "title": "Sociedade dos Poetas Mortos",
       "year": "1989",
       "duration": "2h 8m",
       "rating": "12"
     },
     {
-      "title": "197. Morangos Silvestres",
+      "title": "Morangos Silvestres",
       "year": "1957",
       "duration": "1h 31m",
       "rating": "10"
     },
     {
-      "title": "198. Mad Max: Estrada da Fúria",
+      "title": "Mad Max: Estrada da Fúria",
       "year": "2015",
       "duration": "2h",
       "rating": "16"
     },
     {
-      "title": "199. O 3º Homem",
+      "title": "O 3º Homem",
       "year": "1949",
       "duration": "1h 44m",
       "rating": "14"
     },
     {
-      "title": "200. O Salário do Medo",
+      "title": "O Salário do Medo",
       "year": "1953",
       "duration": "2h 11m",
       "rating": "16"
     },
     {
-      "title": "201. Bancando o Águia",
+      "title": "Bancando o Águia",
       "year": "1924",
       "duration": "45m",
       "rating": "Passed"
     },
     {
-      "title": "202. Monstros S.A.",
+      "title": "Monstros S.A.",
       "year": "2001",
       "duration": "1h 32m",
       "rating": "Livre"
     },
     {
-      "title": "203. Tubarão",
+      "title": "Tubarão",
       "year": "1975",
       "duration": "2h 4m",
       "rating": "14"
     },
     {
-      "title": "204. A Mulher Faz o Homem",
+      "title": "A Mulher Faz o Homem",
       "year": "1939",
       "duration": "2h 9m",
       "rating": "Livre"
     },
     {
-      "title": "205. Como Treinar o Seu Dragão",
+      "title": "Como Treinar o Seu Dragão",
       "year": "2010",
       "duration": "1h 38m",
       "rating": "Livre"
     },
     {
-      "title": "206. Mary e Max: Uma Amizade Diferente",
+      "title": "Mary e Max: Uma Amizade Diferente",
       "year": "2009",
       "duration": "1h 32m",
       "rating": "12"
     },
     {
-      "title": "207. Ford vs Ferrari",
+      "title": "Ford vs Ferrari",
       "year": "2019",
       "duration": "2h 32m",
       "rating": "12"
     },
     {
-      "title": "208. O Sétimo Selo",
+      "title": "O Sétimo Selo",
       "year": "1957",
       "duration": "1h 36m",
       "rating": "12"
     },
     {
-      "title": "209. Ratatouille",
+      "title": "Ratatouille",
       "year": "2007",
       "duration": "1h 51m",
       "rating": "Livre"
     },
     {
-      "title": "210. O Quarto de Jack",
+      "title": "O Quarto de Jack",
       "year": "2015",
       "duration": "1h 58m",
       "rating": "14"
     },
     {
-      "title": "211. O Grande Lebowski",
+      "title": "O Grande Lebowski",
       "year": "1998",
       "duration": "1h 57m",
       "rating": "14"
     },
     {
-      "title": "212. Era uma Vez em Tóquio",
+      "title": "Era uma Vez em Tóquio",
       "year": "1953",
       "duration": "2h 16m",
       "rating": "10"
     },
     {
-      "title": "213. Rocky - Um Lutador",
+      "title": "Rocky - Um Lutador",
       "year": "1976",
       "duration": "2h",
       "rating": "12"
     },
     {
-      "title": "214. Hotel Ruanda",
+      "title": "Hotel Ruanda",
       "year": "2004",
       "duration": "2h 1m",
       "rating": "14"
     },
     {
-      "title": "215. Logan",
+      "title": "Logan",
       "year": "2017",
       "duration": "2h 17m",
       "rating": "16"
     },
     {
-      "title": "216. Spotlight - Segredos Revelados",
+      "title": "Spotlight - Segredos Revelados",
       "year": "2015",
       "duration": "2h 9m",
       "rating": "12"
     },
     {
-      "title": "217. Platoon",
+      "title": "Platoon",
       "year": "1986",
       "duration": "2h",
       "rating": "14"
     },
     {
-      "title": "218. O Martírio de Joana D'Arc",
+      "title": "O Martírio de Joana D'Arc",
       "year": "1928",
       "duration": "1h 50m",
       "rating": "14"
     },
     {
-      "title": "219. O Exterminador do Futuro",
+      "title": "O Exterminador do Futuro",
       "year": "1984",
       "duration": "1h 47m",
       "rating": "14"
     },
     {
-      "title": "220. Antes do Pôr do Sol",
+      "title": "Antes do Pôr do Sol",
       "year": "2004",
       "duration": "1h 20m",
       "rating": "12"
     },
     {
-      "title": "221. Jai Bhim",
+      "title": "Jai Bhim",
       "year": "2021",
       "duration": "2h 44m",
       "rating": "TV-MA"
     },
     {
-      "title": "222. Rush: No Limite da Emoção",
+      "title": "Rush: No Limite da Emoção",
       "year": "2013",
       "duration": "2h 3m",
       "rating": "14"
     },
     {
-      "title": "223. Os Melhores Anos de Nossa Vida",
+      "title": "Os Melhores Anos de Nossa Vida",
       "year": "1946",
       "duration": "2h 50m",
       "rating": "Livre"
     },
     {
-      "title": "224. Rede de Intrigas",
+      "title": "Rede de Intrigas",
       "year": "1976",
       "duration": "2h 1m",
       "rating": "14"
     },
     {
-      "title": "225. O Exorcista",
+      "title": "O Exorcista",
       "year": "1973",
       "duration": "2h 2m",
       "rating": "14"
     },
     {
-      "title": "226. O Ódio",
+      "title": "O Ódio",
       "year": "1995",
       "duration": "1h 38m",
       "rating": "16"
     },
     {
-      "title": "227. Conta Comigo",
+      "title": "Conta Comigo",
       "year": "1986",
       "duration": "1h 29m",
       "rating": "12"
     },
     {
-      "title": "228. Piratas do Caribe: A Maldição do Pérola Negra",
+      "title": "Piratas do Caribe: A Maldição do Pérola Negra",
       "year": "2003",
       "duration": "2h 23m",
       "rating": "14"
     },
     {
-      "title": "229. O Mágico de Oz",
+      "title": "O Mágico de Oz",
       "year": "1939",
       "duration": "1h 42m",
       "rating": "Livre"
     },
     {
-      "title": "230. Os Incríveis",
+      "title": "Os Incríveis",
       "year": "2004",
       "duration": "1h 55m",
       "rating": "Livre"
     },
     {
-      "title": "231. Na Natureza Selvagem",
+      "title": "Na Natureza Selvagem",
       "year": "2007",
       "duration": "2h 28m",
       "rating": "12"
     },
     {
-      "title": "232. Sempre ao Seu Lado",
+      "title": "Sempre ao Seu Lado",
       "year": "2009",
       "duration": "1h 33m",
       "rating": "Livre"
     },
     {
-      "title": "233. Ser ou Não Ser",
+      "title": "Ser ou Não Ser",
       "year": "1942",
       "duration": "1h 39m",
       "rating": "Livre"
     },
     {
-      "title": "234. A Criada",
+      "title": "A Criada",
       "year": "2016",
       "duration": "2h 25m",
       "rating": "18"
     },
     {
-      "title": "235. Meu Pai e Meu Filho",
+      "title": "Meu Pai e Meu Filho",
       "year": "2005",
       "duration": "1h 52m",
       "rating": "Not Rated"
     },
     {
-      "title": "236. A Batalha de Argel",
+      "title": "A Batalha de Argel",
       "year": "1966",
       "duration": "2h 1m",
       "rating": "14"
     },
     {
-      "title": "237. As Vinhas da Ira",
+      "title": "As Vinhas da Ira",
       "year": "1940",
       "duration": "2h 9m",
       "rating": "12"
     },
     {
-      "title": "238. Feitiço do Tempo",
+      "title": "Feitiço do Tempo",
       "year": "1993",
       "duration": "1h 41m",
       "rating": "12"
     },
     {
-      "title": "239. A Noviça Rebelde",
+      "title": "A Noviça Rebelde",
       "year": "1965",
       "duration": "2h 52m",
       "rating": "Livre"
     },
     {
-      "title": "240. Amores Brutos",
+      "title": "Amores Brutos",
       "year": "2000",
       "duration": "2h 34m",
       "rating": "16"
     },
     {
-      "title": "241. Rebecca, a Mulher Inesquecível",
+      "title": "Rebecca, a Mulher Inesquecível",
       "year": "1940",
       "duration": "2h 10m",
       "rating": "12"
     },
     {
-      "title": "242. Rebeldia Indomável",
+      "title": "Rebeldia Indomável",
       "year": "1967",
       "duration": "2h 7m",
       "rating": "14"
     },
     {
-      "title": "243. O Gigante de Ferro",
+      "title": "O Gigante de Ferro",
       "year": "1999",
       "duration": "1h 26m",
       "rating": "Livre"
     },
     {
-      "title": "244. Histórias Cruzadas",
+      "title": "Histórias Cruzadas",
       "year": "2011",
       "duration": "2h 26m",
       "rating": "12"
     },
     {
-      "title": "245. Aconteceu Naquela Noite",
+      "title": "Aconteceu Naquela Noite",
       "year": "1934",
       "duration": "1h 45m",
       "rating": "Livre"
     },
     {
-      "title": "246. A Canção da Estrada",
+      "title": "A Canção da Estrada",
       "year": "1955",
       "duration": "2h 5m",
       "rating": "12"
     },
     {
-      "title": "247. Os Incompreendidos",
+      "title": "Os Incompreendidos",
       "year": "1959",
       "duration": "1h 39m",
       "rating": "12"
     },
     {
-      "title": "248. Aladdin",
+      "title": "Aladdin",
       "year": "1992",
       "duration": "1h 30m",
       "rating": "Livre"
     },
     {
-      "title": "249. Dança com Lobos",
+      "title": "Dança com Lobos",
       "year": "1990",
       "duration": "3h 1m",
       "rating": "14"
     },
     {
-      "title": "250. Gangues de Wasseypur",
+      "title": "Gangues de Wasseypur",
       "year": "2012",
       "duration": "5h 21m",
       "rating": "14"

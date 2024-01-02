@@ -2,6 +2,7 @@ import requests
 import random
 import json
 import logging
+import re
 from bs4 import BeautifulSoup
 
 USER_AGENTS_LIST = [
@@ -41,7 +42,7 @@ def create_json(movies):
       json.dump(movies, json_file, ensure_ascii=False, indent=2)
       logging.info('create json file: movies.json')
   except Exception as e:
-        logging.error(f"Failed to create the file: {str(e)}", exc_info=True)
+    logging.error(f"Failed to create the file: {str(e)}", exc_info=True)
 
 def main():
 
@@ -68,7 +69,7 @@ def main():
 
       if title_movie not in movies['movies']:
         movies['movies'].append({
-          'title': title_movie,
+          'title': re.sub(r'^\d+\.\s*', '', title_movie),
           'year': year.get_text(),
           'duration': duration.get_text(),
           'rating': rating.get_text()
@@ -77,7 +78,7 @@ def main():
     create_json(movies)
 
   except Exception as e:
-        logging.error(f"Failed to crawl: {str(e)}", exc_info=True)
+    logging.error(f"Failed to crawl: {str(e)}", exc_info=True)
 
 
 if __name__ == "__main__":

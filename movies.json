@@ -439,7 +439,7 @@
       "rating": "16"
     },
     {
-      "title": "Viva - A Vida é uma Festa",
+      "title": "Viva: A Vida é uma Festa",
       "year": "2017",
       "duration": "1h 45m",
       "rating": "Livre"
@@ -775,12 +775,6 @@
       "rating": "Livre"
     },
     {
-      "title": "Top Gun: Maverick",
-      "year": "2022",
-      "duration": "2h 10m",
-      "rating": "12"
-    },
-    {
       "title": "O Lobo de Wall Street",
       "year": "2013",
       "duration": "3h",
@@ -791,6 +785,12 @@
       "year": "1921",
       "duration": "1h 8m",
       "rating": "Livre"
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "year": "2022",
+      "duration": "2h 10m",
+      "rating": "12"
     },
     {
       "title": "Meu Pai",
@@ -1021,16 +1021,16 @@
       "rating": "12"
     },
     {
-      "title": "Fargo: Uma Comédia de Erros",
-      "year": "1996",
-      "duration": "1h 38m",
-      "rating": "18"
-    },
-    {
       "title": "Godzilla Minus One",
       "year": "2023",
       "duration": "2h 4m",
       "rating": "12"
+    },
+    {
+      "title": "Fargo: Uma Comédia de Erros",
+      "year": "1996",
+      "duration": "1h 38m",
+      "rating": "18"
     },
     {
       "title": "Guerreiro",
@@ -1039,16 +1039,16 @@
       "rating": "12"
     },
     {
-      "title": "Prenda-me se for Capaz",
-      "year": "2002",
-      "duration": "2h 21m",
-      "rating": "12"
-    },
-    {
       "title": "Klaus",
       "year": "2019",
       "duration": "1h 36m",
       "rating": "10"
+    },
+    {
+      "title": "Prenda-me se for Capaz",
+      "year": "2002",
+      "duration": "2h 21m",
+      "rating": "12"
     },
     {
       "title": "Gran Torino",
@@ -1237,6 +1237,12 @@
       "rating": "12"
     },
     {
+      "title": "12th Fail",
+      "year": "2023",
+      "duration": "2h 27m",
+      "rating": ""
+    },
+    {
       "title": "Ford vs Ferrari",
       "year": "2019",
       "duration": "2h 32m",
@@ -1387,15 +1393,15 @@
       "rating": "12"
     },
     {
-      "title": "Sempre ao Seu Lado",
-      "year": "2009",
-      "duration": "1h 33m",
-      "rating": "Livre"
-    },
-    {
       "title": "Ser ou Não Ser",
       "year": "1942",
       "duration": "1h 39m",
+      "rating": "Livre"
+    },
+    {
+      "title": "Sempre ao Seu Lado",
+      "year": "2009",
+      "duration": "1h 33m",
       "rating": "Livre"
     },
     {
@@ -1492,12 +1498,6 @@
       "title": "Dança com Lobos",
       "year": "1990",
       "duration": "3h 1m",
-      "rating": "14"
-    },
-    {
-      "title": "Gangues de Wasseypur",
-      "year": "2012",
-      "duration": "5h 21m",
       "rating": "14"
     }
   ]

@@ -64,15 +64,19 @@ def main():
       title_movie = div_content_movie.find('div', 'cli-children').find('h3').get_text()
 
       # retorna infos adicionais do filme
-      div_info_movie = div_content_movie.find('div', 'cli-title-metadata')
-      year, duration, rating = div_info_movie
+      div_info_movie = div_content_movie.find('div', 'cli-title-metadata').findAll('span', class_='cli-title-metadata-item')
+      try:
+        year, duration, rating = div_info_movie
+      except ValueError as ve:
+        logging.error(f"Failed to unpack div_info_movie: {str(ve)}", exc_info=True)
+        year, duration, rating = div_info_movie + [None] * (3 - len(div_info_movie))
 
       if title_movie not in movies['movies']:
         movies['movies'].append({
           'title': re.sub(r'^\d+\.\s*', '', title_movie),
-          'year': year.get_text(),
-          'duration': duration.get_text(),
-          'rating': rating.get_text()
+          'year': year.get_text() if year else '',
+          'duration': duration.get_text() if duration else '',
+          'rating': rating.get_text() if rating else ''
         })
 
     create_json(movies)

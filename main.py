@@ -3,7 +3,16 @@ import random
 import json
 import logging
 import re
+import time
+from datetime import datetime
 from bs4 import BeautifulSoup
+from time import sleep
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 USER_AGENTS_LIST = [
   'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
@@ -12,11 +21,10 @@ USER_AGENTS_LIST = [
 ]
 
 logging.basicConfig(
-    filename='crawler_log.txt',
+    filename='logs/crawler_log.txt',
     format='%(asctime)s [%(levelname)s]: %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',
     level=logging.INFO)
-
 
 def get_page():
   # fetch URL
@@ -40,9 +48,32 @@ def create_json(movies):
   try:
     with open('movies.json', 'w', encoding='utf-8') as json_file:
       json.dump(movies, json_file, ensure_ascii=False, indent=2)
-      logging.info('create json file: movies.json')
+      logging.info('creating json file: movies.json')
   except Exception as e:
     logging.error(f"Failed to create the file: {str(e)}", exc_info=True)
+
+def create_screenshot():
+  url = 'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
+  try:
+    logging.info('creating screenshot file')
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument(f'--user-agent={random.choice(USER_AGENTS_LIST)}')
+    driver = webdriver.Chrome(options=options)
+    driver.get(url)
+    driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
+
+    time.sleep(5)
+    required_width = driver.execute_script('return document.body.parentNode.scrollWidth')
+    required_height = driver.execute_script('return document.body.parentNode.scrollHeight')
+    driver.set_window_size(required_width, required_height)
+
+    body = driver.find_element(By.TAG_NAME, 'body')
+    body.screenshot(f'images/screenshot{datetime.now()}.png')
+
+    driver.quit()
+  except Exception as e:
+    logging.error(f"Failed to create the screenshot file: {str(e)}", exc_info=True)
 
 def main():
 
@@ -80,6 +111,7 @@ def main():
         })
 
     create_json(movies)
+    create_screenshot()
 
   except Exception as e:
     logging.error(f"Failed to crawl: {str(e)}", exc_info=True)

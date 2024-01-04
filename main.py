@@ -45,35 +45,40 @@ def get_content_page(page):
   return content
 
 def create_json(movies):
+  logging.info('creating json file: movies.json')
   try:
     with open('movies.json', 'w', encoding='utf-8') as json_file:
       json.dump(movies, json_file, ensure_ascii=False, indent=2)
-      logging.info('creating json file: movies.json')
+      logging.info('created json file: movies.json')
   except Exception as e:
     logging.error(f"Failed to create the file: {str(e)}", exc_info=True)
 
 def create_screenshot():
+  logging.info('creating screenshot file')
   url = 'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
+  screenshot_date = datetime.now().strftime('%d-%m-%Y_%H:%M:%S')
+  screenshot_path = f'images/screenshot_{screenshot_date}.png'
+  options = Options()
+  options.add_argument('--headless')
+  options.add_argument(f'--user-agent={random.choice(USER_AGENTS_LIST)}')
+  driver = webdriver.Chrome(options=options)
+  driver.get(url)
+  driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
+
+  time.sleep(5)
+  required_width = driver.execute_script('return document.body.parentNode.scrollWidth')
+  required_height = driver.execute_script('return document.body.parentNode.scrollHeight')
+  driver.set_window_size(required_width, required_height)
+
   try:
-    logging.info('creating screenshot file')
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument(f'--user-agent={random.choice(USER_AGENTS_LIST)}')
-    driver = webdriver.Chrome(options=options)
-    driver.get(url)
-    driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
-
-    time.sleep(5)
-    required_width = driver.execute_script('return document.body.parentNode.scrollWidth')
-    required_height = driver.execute_script('return document.body.parentNode.scrollHeight')
-    driver.set_window_size(required_width, required_height)
-
-    body = driver.find_element(By.TAG_NAME, 'body')
-    body.screenshot(f'images/screenshot{datetime.now()}.png')
-
-    driver.quit()
+    body = WebDriverWait(driver, 10).until(
+      EC.presence_of_element_located((By.TAG_NAME, 'body')))
+    body.screenshot(screenshot_path)
   except Exception as e:
     logging.error(f"Failed to create the screenshot file: {str(e)}", exc_info=True)
+  finally:
+    logging.info(f'created screenshot: {screenshot_path}')
+    driver.quit()
 
 def main():
 

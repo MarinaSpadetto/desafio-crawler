@@ -949,6 +949,12 @@
       "rating": "Livre"
     },
     {
+      "title": "12th Fail",
+      "year": "2023",
+      "duration": "2h 27m",
+      "rating": ""
+    },
+    {
       "title": "Os Suspeitos",
       "year": "2013",
       "duration": "2h 33m",
@@ -1031,12 +1037,6 @@
       "year": "1996",
       "duration": "1h 38m",
       "rating": "18"
-    },
-    {
-      "title": "12th Fail",
-      "year": "2023",
-      "duration": "2h 27m",
-      "rating": ""
     },
     {
       "title": "Guerreiro",
@@ -1393,15 +1393,15 @@
       "rating": "12"
     },
     {
-      "title": "Sempre ao Seu Lado",
-      "year": "2009",
-      "duration": "1h 33m",
-      "rating": "Livre"
-    },
-    {
       "title": "Ser ou Não Ser",
       "year": "1942",
       "duration": "1h 39m",
+      "rating": "Livre"
+    },
+    {
+      "title": "Sempre ao Seu Lado",
+      "year": "2009",
+      "duration": "1h 33m",
       "rating": "Livre"
     },
     {

@@ -1,6 +1,7 @@
-import unittest
+from datetime import datetime
 from bs4 import BeautifulSoup
 from crawler_imdb import crawler_imdb
+import unittest
 import requests
 import tempfile
 import json
@@ -17,10 +18,13 @@ class TestCrawlerImdb(unittest.TestCase):
         self.soup_page = BeautifulSoup(self.page.content, 'html.parser')
         self.title_page = self.soup_page.find('title').get_text()
         self.temp_filename = tempfile.mktemp(suffix=".json")
+        self.screenshot_path = ''
 
     def tearDown(self):
         if os.path.exists(self.temp_filename):
             os.remove(self.temp_filename)
+        if os.path.exists(self.screenshot_path):
+            os.remove(self.screenshot_path)
 
     def test_get_page(self):
         page = crawler_imdb.get_page()
@@ -32,26 +36,27 @@ class TestCrawlerImdb(unittest.TestCase):
 
     def test_get_main_content(self):
         page = crawler_imdb.get_page()
-        soup_page = crawler_imdb.get_main_content(page)
+        content = crawler_imdb.get_main_content(page)
 
-        attrs = {
-            'data-testid': 'chart-layout-main-column'
-        }
-        main_content = soup_page.find("div", attrs=attrs).findChild('ul', class_='ipc-metadata-list')
+        content2 = crawler_imdb.get_main_content(self.page)
 
-        maint_content2 = self.soup_page.find("div", attrs=attrs).findChild('ul', class_='ipc-metadata-list')
+        self.assertEqual(content, content2)
 
-        self.assertEqual(main_content, maint_content2)
+    def test_create_json(self):
+        main_content = crawler_imdb.get_main_content(self.page)
+        movies = crawler_imdb.get_movies_list(main_content)
+        crawler_imdb.create_json(movies)
+        self.assertTrue(os.path.exists('movies.json'))
+        with open('movies.json', 'r', encoding='utf-8') as json_file:
+            created_movies = json.load(json_file)
 
-    # def test_create_json(self):
-    #     main_content = crawler_imdb.get_main_content(self.page)
-    #     movies = crawler_imdb.crawler(main_content)
-    #     crawler_imdb.create_json(movies)
-    #     self.assertTrue(os.path.exists('movies.json'))
-    #     with open('movies.json', 'r', encoding='utf-8') as json_file:
-    #         created_movies = json.load(json_file)
+        self.assertEqual(created_movies, movies)
 
-    #     self.assertEqual(created_movies, movies)
+    def test_create_screenshot(self):
+        screenshot_date = datetime.now().strftime('%d-%m-%Y_%H:%M')
+        self.screenshot_path = f'images/screenshot_{screenshot_date}.png'
+        crawler_imdb.create_screenshot(self.url)
+        self.assertTrue(os.path.exists(self.screenshot_path))
 
 if __name__ == '__main__':
     unittest.main()

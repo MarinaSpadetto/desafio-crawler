@@ -1,17 +1,16 @@
+from datetime import datetime
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import requests
 import random
 import json
 import logging
 import re
 import time
-from datetime import datetime
-from bs4 import BeautifulSoup
-from time import sleep
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 
 USER_AGENTS_LIST = [
@@ -84,19 +83,20 @@ def create_json(movies):
   except Exception as e:
     logging.error(f"Failed to create the file: {str(e)}", exc_info=True)
 
-def create_screenshot():
+def create_screenshot(url):
   logging.info('creating screenshot file')
-  url = 'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
-  screenshot_date = datetime.now().strftime('%d-%m-%Y_%H:%M:%S')
+  screenshot_date = datetime.now().strftime('%d-%m-%Y_%H:%M')
   screenshot_path = f'images/screenshot_{screenshot_date}.png'
+
   options = Options()
   options.add_argument('--headless')
   options.add_argument(f'--user-agent={random.choice(USER_AGENTS_LIST)}')
+
   driver = webdriver.Chrome(options=options)
   driver.get(url)
   driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
-
   time.sleep(5)
+
   required_width = driver.execute_script('return document.body.parentNode.scrollWidth')
   required_height = driver.execute_script('return document.body.parentNode.scrollHeight')
   driver.set_window_size(required_width, required_height)
@@ -118,7 +118,7 @@ def main():
     content_page = get_main_content(page)
     movies_list = get_movies_list(content_page)
     create_json(movies_list)
-    create_screenshot()
+    create_screenshot(page.url)
 
   except Exception as e:
     logging.error(f"Failed to crawl: {str(e)}", exc_info=True)

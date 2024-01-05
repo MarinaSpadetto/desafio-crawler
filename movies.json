@@ -853,6 +853,12 @@
       "rating": "Livre"
     },
     {
+      "title": "12th Fail",
+      "year": "2023",
+      "duration": "2h 27m",
+      "rating": ""
+    },
+    {
       "title": "O Labirinto do Fauno",
       "year": "2006",
       "duration": "1h 58m",
@@ -881,12 +887,6 @@
       "year": "2007",
       "duration": "2h 2m",
       "rating": "16"
-    },
-    {
-      "title": "12th Fail",
-      "year": "2023",
-      "duration": "2h 27m",
-      "rating": ""
     },
     {
       "title": "O Tesouro da Sierra Madre",
@@ -1423,16 +1423,16 @@
       "rating": "12"
     },
     {
-      "title": "Feitiço do Tempo",
-      "year": "1993",
-      "duration": "1h 41m",
-      "rating": "12"
-    },
-    {
       "title": "A Batalha de Argel",
       "year": "1966",
       "duration": "2h 1m",
       "rating": "14"
+    },
+    {
+      "title": "Feitiço do Tempo",
+      "year": "1993",
+      "duration": "1h 41m",
+      "rating": "12"
     },
     {
       "title": "A Noviça Rebelde",

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from datetime import datetime
 from bs4 import BeautifulSoup
 from crawler_imdb import crawler_imdb
@@ -6,6 +8,9 @@ import requests
 import tempfile
 import json
 import os
+import pandas as pd
+import datatest as dt
+
 
 class TestCrawlerImdb(unittest.TestCase):
 
@@ -17,12 +22,12 @@ class TestCrawlerImdb(unittest.TestCase):
         self.page = requests.get(self.url, headers=self.header)
         self.soup_page = BeautifulSoup(self.page.content, 'html.parser')
         self.title_page = self.soup_page.find('title').get_text()
-        self.temp_filename = tempfile.mktemp(suffix=".json")
+        self.temp_json = tempfile.mktemp(suffix=".json")
         self.screenshot_path = ''
 
     def tearDown(self):
-        if os.path.exists(self.temp_filename):
-            os.remove(self.temp_filename)
+        if os.path.exists(self.temp_json):
+            os.remove(self.temp_json)
         if os.path.exists(self.screenshot_path):
             os.remove(self.screenshot_path)
 
@@ -58,5 +63,34 @@ class TestCrawlerImdb(unittest.TestCase):
         crawler_imdb.create_screenshot(self.url)
         self.assertTrue(os.path.exists(self.screenshot_path))
 
-if __name__ == '__main__':
-    unittest.main()
+
+class TestDataFrameMovies(dt.DataTestCase):
+
+    def setUp(self):
+        self.url = 'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
+        self.header = {
+            'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+        }
+        self.page = requests.get(self.url, headers=self.header)
+        self.soup_page = BeautifulSoup(self.page.content, 'html.parser')
+        self.temp_json = tempfile.mktemp(suffix=".json")
+        self.screenshot_path = ''
+        self.temp_csv = tempfile.mktemp(suffix=".csv")
+
+    def tearDown(self):
+        if os.path.exists(self.temp_json):
+            os.remove(self.temp_json)
+        if os.path.exists(self.temp_csv):
+            os.remove(self.temp_csv)
+
+    def test_create_dataframe(self):
+        main_content = crawler_imdb.get_main_content(self.page)
+        movies = crawler_imdb.get_movies_list(main_content)
+        crawler_imdb.create_json(movies)
+        crawler_imdb.create_dataframe_imdb()
+        self.assertTrue(os.path.exists('movies.csv'))
+        df = pd.read_csv('movies.csv')
+        self.assertValid(
+            df.columns,
+            {'id', 'title', 'year', 'duration', 'rating'},
+        )

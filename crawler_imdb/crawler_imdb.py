@@ -4,6 +4,7 @@ import json
 import logging
 import re
 import time
+import pandas as pd
 from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -126,6 +127,21 @@ def create_screenshot(url):
         driver.quit()
 
 
+def create_dataframe_imdb():
+    logging.info('creating the dataframe')
+    try:
+        with open('movies.json') as f:
+            data = json.load(f)
+        df = pd.json_normalize(data['movies'],
+                               meta=['title', 'year', 'duration', 'rating'])
+        df.index.name = 'id'
+        df.to_csv('movies.csv', encoding='utf-8')
+        logging.info(f'dataframe: \n {df.to_string()}')
+    except Exception as e:
+        logging.error(
+            f"Failed to create the dataframe: {str(e)}", exc_info=True)
+
+
 def main():
 
     try:
@@ -134,6 +150,7 @@ def main():
         movies_list = get_movies_list(content_page)
         create_json(movies_list)
         create_screenshot(page.url)
+        create_dataframe_imdb()
 
     except Exception as e:
         logging.error(f"Failed to crawl: {str(e)}", exc_info=True)

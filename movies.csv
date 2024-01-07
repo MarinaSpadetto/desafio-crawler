@@ -37,8 +37,8 @@ id,title,year,duration,rating
 35,Gladiador,2000,2h 35m,14
 36,O Rei Leão,1994,1h 28m,Livre
 37,O Profissional,1994,1h 50m,14
-38,A Outra História Americana,1998,1h 59m,14
-39,Os Infiltrados,2006,2h 31m,18
+38,Os Infiltrados,2006,2h 31m,18
+39,A Outra História Americana,1998,1h 59m,14
 40,Whiplash: Em Busca da Perfeição,2014,1h 46m,12
 41,O Grande Truque,2006,2h 10m,14
 42,Túmulo dos Vagalumes,1988,1h 29m,12
@@ -66,8 +66,8 @@ id,title,year,duration,rating
 64,Testemunha de Acusação,1957,1h 56m,12
 65,O Grande Ditador,1940,2h 5m,Livre
 66,"Aliens, O Resgate",1986,2h 17m,14
-67,Oppenheimer,2023,3h,16
-68,Bastardos Inglórios,2009,2h 33m,18
+67,Bastardos Inglórios,2009,2h 33m,18
+68,Oppenheimer,2023,3h,16
 69,Batman - O Cavaleiro das Trevas Ressurge,2012,2h 44m,12
 70,Beleza Americana,1999,2h 2m,14
 71,Dr. Fantástico,1964,1h 35m,10
@@ -94,53 +94,53 @@ id,title,year,duration,rating
 92,Brilho Eterno de uma Mente sem Lembranças,2004,1h 48m,14
 93,A Caça,2012,1h 55m,14
 94,2001: Uma Odisséia no Espaço,1968,2h 29m,Livre
-95,Cães de Aluguel,1992,1h 39m,18
-96,Viver,1952,2h 23m,Not Rated
-97,Lawrence da Arábia,1962,3h 38m,14
-98,Se Meu Apartamento Falasse,1960,2h 5m,Livre
-99,Cidadão Kane,1941,1h 59m,Livre
-100,"M, o Vampiro de Dusseldorf",1931,1h 57m,12
-101,Intriga Internacional,1959,2h 16m,14
-102,Um Corpo que Cai,1958,2h 8m,14
-103,Pacto de Sangue,1944,1h 47m,14
-104,Scarface,1983,2h 50m,18
-105,O Fabuloso Destino de Amélie Poulain,2001,2h 2m,14
-106,Nascido para Matar,1987,1h 56m,16
-107,Incêndios,2010,2h 11m,14
-108,Laranja Mecânica,1971,2h 16m,(Banned)
-109,Fogo Contra Fogo,1995,2h 50m,14
-110,Up: Altas Aventuras,2009,1h 36m,Livre
-111,O Sol é para Todos,1962,2h 9m,12
-112,Golpe de Mestre,1973,2h 9m,18
-113,A Separação,2011,2h 3m,12
-114,Hamilton,2020,2h 40m,12
+95,12th Fail,2023,2h 27m,
+96,Cães de Aluguel,1992,1h 39m,18
+97,Viver,1952,2h 23m,Not Rated
+98,Lawrence da Arábia,1962,3h 38m,14
+99,Se Meu Apartamento Falasse,1960,2h 5m,Livre
+100,Cidadão Kane,1941,1h 59m,Livre
+101,"M, o Vampiro de Dusseldorf",1931,1h 57m,12
+102,Intriga Internacional,1959,2h 16m,14
+103,Um Corpo que Cai,1958,2h 8m,14
+104,Pacto de Sangue,1944,1h 47m,14
+105,Scarface,1983,2h 50m,18
+106,O Fabuloso Destino de Amélie Poulain,2001,2h 2m,14
+107,Nascido para Matar,1987,1h 56m,16
+108,Incêndios,2010,2h 11m,14
+109,Laranja Mecânica,1971,2h 16m,(Banned)
+110,Fogo Contra Fogo,1995,2h 50m,14
+111,Up: Altas Aventuras,2009,1h 36m,Livre
+112,O Sol é para Todos,1962,2h 9m,12
+113,Golpe de Mestre,1973,2h 9m,18
+114,A Separação,2011,2h 3m,12
 115,Indiana Jones e a Última Cruzada,1989,2h 7m,Livre
-116,Duro de Matar,1988,2h 12m,14
-117,Metrópolis,1927,2h 33m,Livre
-118,Como Estrelas na Terra,2007,2h 42m,Livre
-119,Snatch - Porcos e Diamantes,2000,1h 44m,16
-120,Ladrões de Bicicletas,1948,1h 29m,10
-121,Los Angeles: Cidade Proibida,1997,2h 18m,18
-122,1917,2019,1h 59m,14
-123,Taxi Driver: Motorista de Táxi,1976,1h 54m,14
-124,A Queda! As Últimas Horas de Hitler,2004,2h 36m,16
-125,Dangal,2016,2h 41m,10
-126,Por uns Dólares a Mais,1965,2h 12m,12
-127,Batman Begins,2005,2h 20m,10
-128,Quanto Mais Quente Melhor,1959,2h 1m,Livre
-129,O Lobo de Wall Street,2013,3h,18
-130,O Garoto,1921,1h 8m,Livre
-131,Top Gun: Maverick,2022,2h 10m,12
-132,Meu Pai,2020,1h 37m,12
-133,Green Book: O Guia,2018,2h 10m,12
-134,A Malvada,1950,2h 18m,Livre
-135,Julgamento em Nuremberg,1961,2h 59m,Approved
-136,O Show de Truman: O Show da Vida,1998,1h 43m,12
-137,Sangue Negro,2007,2h 38m,14
-138,Ilha do Medo,2010,2h 18m,16
-139,Cassino,1995,2h 58m,18
-140,Ran,1985,2h 40m,16
-141,12th Fail,2023,2h 27m,
+116,Hamilton,2020,2h 40m,12
+117,Duro de Matar,1988,2h 12m,14
+118,Metrópolis,1927,2h 33m,Livre
+119,Como Estrelas na Terra,2007,2h 42m,Livre
+120,Snatch - Porcos e Diamantes,2000,1h 44m,16
+121,Ladrões de Bicicletas,1948,1h 29m,10
+122,Los Angeles: Cidade Proibida,1997,2h 18m,18
+123,1917,2019,1h 59m,14
+124,Taxi Driver: Motorista de Táxi,1976,1h 54m,14
+125,A Queda! As Últimas Horas de Hitler,2004,2h 36m,16
+126,Dangal,2016,2h 41m,10
+127,Por uns Dólares a Mais,1965,2h 12m,12
+128,Batman Begins,2005,2h 20m,10
+129,Quanto Mais Quente Melhor,1959,2h 1m,Livre
+130,O Lobo de Wall Street,2013,3h,18
+131,O Garoto,1921,1h 8m,Livre
+132,Top Gun: Maverick,2022,2h 10m,12
+133,Meu Pai,2020,1h 37m,12
+134,Green Book: O Guia,2018,2h 10m,12
+135,A Malvada,1950,2h 18m,Livre
+136,Julgamento em Nuremberg,1961,2h 59m,Approved
+137,O Show de Truman: O Show da Vida,1998,1h 43m,12
+138,Sangue Negro,2007,2h 38m,14
+139,Ilha do Medo,2010,2h 18m,16
+140,Cassino,1995,2h 58m,18
+141,Ran,1985,2h 40m,16
 142,Jurassic Park - O Parque dos Dinossauros,1993,2h 7m,Livre
 143,O Labirinto do Fauno,2006,1h 58m,16
 144,O Sexto Sentido,1999,1h 47m,12
@@ -163,8 +163,8 @@ id,title,year,duration,rating
 161,...E o Vento Levou,1939,3h 58m,Livre
 162,V de Vingança,2005,2h 12m,16
 163,"Jogos, Trapaças e Dois Canos Fumegantes",1998,1h 47m,18
-164,Touro Indomável,1980,2h 9m,16
-165,O Segredo dos Seus Olhos,2009,2h 9m,16
+164,O Segredo dos Seus Olhos,2009,2h 9m,16
+165,Touro Indomável,1980,2h 9m,16
 166,Divertida Mente,2015,1h 35m,Livre
 167,Três Anúncios para um Crime,2017,1h 55m,16
 168,Homem-Aranha: Sem Volta para Casa,2021,2h 28m,12
@@ -194,8 +194,8 @@ id,title,year,duration,rating
 192,Sindicato de Ladrões,1954,1h 48m,14
 193,A General,1926,1h 18m,Livre
 194,O Franco Atirador,1978,3h 3m,18
-195,Relatos Selvagens,2014,2h 2m,14
-196,Sociedade dos Poetas Mortos,1989,2h 8m,12
+195,Sociedade dos Poetas Mortos,1989,2h 8m,12
+196,Relatos Selvagens,2014,2h 2m,14
 197,Morangos Silvestres,1957,1h 31m,10
 198,Mad Max: Estrada da Fúria,2015,2h,16
 199,O 3º Homem,1949,1h 44m,14

@@ -229,16 +229,16 @@
       "rating": "14"
     },
     {
-      "title": "A Outra História Americana",
-      "year": "1998",
-      "duration": "1h 59m",
-      "rating": "14"
-    },
-    {
       "title": "Os Infiltrados",
       "year": "2006",
       "duration": "2h 31m",
       "rating": "18"
+    },
+    {
+      "title": "A Outra História Americana",
+      "year": "1998",
+      "duration": "1h 59m",
+      "rating": "14"
     },
     {
       "title": "Whiplash: Em Busca da Perfeição",
@@ -403,16 +403,16 @@
       "rating": "14"
     },
     {
-      "title": "Oppenheimer",
-      "year": "2023",
-      "duration": "3h",
-      "rating": "16"
-    },
-    {
       "title": "Bastardos Inglórios",
       "year": "2009",
       "duration": "2h 33m",
       "rating": "18"
+    },
+    {
+      "title": "Oppenheimer",
+      "year": "2023",
+      "duration": "3h",
+      "rating": "16"
     },
     {
       "title": "Batman - O Cavaleiro das Trevas Ressurge",
@@ -571,6 +571,12 @@
       "rating": "Livre"
     },
     {
+      "title": "12th Fail",
+      "year": "2023",
+      "duration": "2h 27m",
+      "rating": ""
+    },
+    {
       "title": "Cães de Aluguel",
       "year": "1992",
       "duration": "1h 39m",
@@ -685,16 +691,16 @@
       "rating": "12"
     },
     {
-      "title": "Hamilton",
-      "year": "2020",
-      "duration": "2h 40m",
-      "rating": "12"
-    },
-    {
       "title": "Indiana Jones e a Última Cruzada",
       "year": "1989",
       "duration": "2h 7m",
       "rating": "Livre"
+    },
+    {
+      "title": "Hamilton",
+      "year": "2020",
+      "duration": "2h 40m",
+      "rating": "12"
     },
     {
       "title": "Duro de Matar",
@@ -847,12 +853,6 @@
       "rating": "16"
     },
     {
-      "title": "12th Fail",
-      "year": "2023",
-      "duration": "2h 27m",
-      "rating": ""
-    },
-    {
       "title": "Jurassic Park - O Parque dos Dinossauros",
       "year": "1993",
       "duration": "2h 7m",
@@ -985,14 +985,14 @@
       "rating": "18"
     },
     {
-      "title": "Touro Indomável",
-      "year": "1980",
+      "title": "O Segredo dos Seus Olhos",
+      "year": "2009",
       "duration": "2h 9m",
       "rating": "16"
     },
     {
-      "title": "O Segredo dos Seus Olhos",
-      "year": "2009",
+      "title": "Touro Indomável",
+      "year": "1980",
       "duration": "2h 9m",
       "rating": "16"
     },
@@ -1171,16 +1171,16 @@
       "rating": "18"
     },
     {
-      "title": "Relatos Selvagens",
-      "year": "2014",
-      "duration": "2h 2m",
-      "rating": "14"
-    },
-    {
       "title": "Sociedade dos Poetas Mortos",
       "year": "1989",
       "duration": "2h 8m",
       "rating": "12"
+    },
+    {
+      "title": "Relatos Selvagens",
+      "year": "2014",
+      "duration": "2h 2m",
+      "rating": "14"
     },
     {
       "title": "Morangos Silvestres",

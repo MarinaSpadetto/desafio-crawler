@@ -5,13 +5,17 @@ import logging
 import re
 import time
 import pandas as pd
+import os
 from datetime import datetime
+from db.database import DatabaseManager
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 USER_AGENTS_LIST = [
@@ -25,6 +29,14 @@ logging.basicConfig(
     format='%(asctime)s [%(levelname)s]: %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',
     level=logging.INFO)
+
+db_config = {
+    'host': os.environ.get('DATABASE_HOST'),
+    'port': os.environ.get('DATABASE_PORT'),
+    'database': os.environ.get('DATABASE'),
+    'user': os.environ.get('DATABASE_USER'),
+    'password': os.environ.get('DATABASE_PASSWORD'),
+}
 
 
 def get_page():
@@ -46,6 +58,29 @@ def get_main_content(page):
     content = soup.find("div", attrs=attrs).findChild(
         'ul', class_='ipc-metadata-list')
     return content
+
+
+def save_movie_database(data_movie):
+    logging.info('saving data movie in database')
+    db_manager = DatabaseManager(db_config)
+    movies_table = 'movies'
+    fields_table = ['title VARCHAR', 'year VARCHAR',
+                    'duration VARCHAR', 'rating VARCHAR']
+    try:
+        db_manager.create_table(movies_table, fields_table)
+        logging.info(f'created table {movies_table}')
+    except Exception as e:
+        logging.error(
+            f"Failed to create the table {movies_table} in database: {str(e)}", exc_info=True)
+    try:
+        db_manager.insert_data(movies_table, data_movie)
+        logging.info(
+            f'inserted data movie {data_movie} in database {movies_table}')
+    except Exception as e:
+        logging.error(
+            f"Failed to inserting the data movie {data_movie} in table {movies_table}: {str(e)}", exc_info=True)
+    db_manager.close_connection()
+    return db_manager
 
 
 def get_movies_list(content_page):
@@ -82,6 +117,14 @@ def get_movies_list(content_page):
                 'rating': rating.get_text() if rating else ''
             })
 
+        dict_movies = {
+            'title': re.sub(r'^\d+\.\s*', '', title_movie),
+            'year': year.get_text() if year else '',
+            'duration': duration.get_text() if duration else '',
+            'rating': rating.get_text() if rating else ''
+        }
+        save_movie_database(dict_movies)
+
     return movies
 
 
@@ -102,9 +145,13 @@ def create_screenshot(url):
 
     options = Options()
     options.add_argument('--headless')
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     options.add_argument(f'--user-agent={random.choice(USER_AGENTS_LIST)}')
 
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(service=Service(
+        ChromeDriverManager().install()), options=options)
+
     driver.get(url)
     driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
     time.sleep(5)

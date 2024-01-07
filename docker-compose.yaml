@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  bm-postgres:
+    container_name: bm-postgres
+    image: postgres
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - postgres-volume:/var/lib/postgresql/data:rw
+    networks:
+      - my-network
+
+  bm-pgadmin:
+    container_name: bm-pgadmin
+    image: dpage/pgadmin4
+    ports:
+      - "15432:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=${DATABASE_EMAIL}
+      - PGADMIN_DEFAULT_PASSWORD=${DATABASE_PASSWORD}
+      - PGADMIN_DEFAULT_SERVER=${PGADMIN_DEFAULT_SERVER}
+      - PGADMIN_DEFAULT_DB=${PGADMIN_DEFAULT_DB}
+
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    networks:
+      - my-network
+
+  bm-crawler:
+    container_name: bm-crawler
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    name: my-network
+    driver: bridge
+
+volumes:
+  postgres-volume:
+  pgadmin-data:

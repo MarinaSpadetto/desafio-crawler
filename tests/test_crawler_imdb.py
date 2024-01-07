@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
 from bs4 import BeautifulSoup
-from crawler_imdb import crawler_imdb
+from crawler_imdb import get_main_content, get_movies_list, get_page, create_json, create_screenshot, create_dataframe_imdb
 import unittest
 import requests
 import tempfile
@@ -32,7 +32,7 @@ class TestCrawlerImdb(unittest.TestCase):
             os.remove(self.screenshot_path)
 
     def test_get_page(self):
-        page = crawler_imdb.get_page()
+        page = get_page()
         soup_page = BeautifulSoup(page.content, 'html.parser')
         title_page = soup_page.find('title').get_text().lower()
 
@@ -40,17 +40,17 @@ class TestCrawlerImdb(unittest.TestCase):
         self.assertEqual(self.soup_page.content, soup_page.content)
 
     def test_get_main_content(self):
-        page = crawler_imdb.get_page()
-        content = crawler_imdb.get_main_content(page)
+        page = get_page()
+        content = get_main_content(page)
 
-        content2 = crawler_imdb.get_main_content(self.page)
+        content2 = get_main_content(self.page)
 
         self.assertEqual(content, content2)
 
     def test_create_json(self):
-        main_content = crawler_imdb.get_main_content(self.page)
-        movies = crawler_imdb.get_movies_list(main_content)
-        crawler_imdb.create_json(movies)
+        main_content = get_main_content(self.page)
+        movies = get_movies_list(main_content)
+        create_json(movies)
         self.assertTrue(os.path.exists('movies.json'))
         with open('movies.json', 'r', encoding='utf-8') as json_file:
             created_movies = json.load(json_file)
@@ -60,7 +60,7 @@ class TestCrawlerImdb(unittest.TestCase):
     def test_create_screenshot(self):
         screenshot_date = datetime.now().strftime('%d-%m-%Y_%H:%M')
         self.screenshot_path = f'images/screenshot_{screenshot_date}.png'
-        crawler_imdb.create_screenshot(self.url)
+        create_screenshot(self.url)
         self.assertTrue(os.path.exists(self.screenshot_path))
 
 
@@ -84,10 +84,10 @@ class TestDataFrameMovies(dt.DataTestCase):
             os.remove(self.temp_csv)
 
     def test_create_dataframe(self):
-        main_content = crawler_imdb.get_main_content(self.page)
-        movies = crawler_imdb.get_movies_list(main_content)
-        crawler_imdb.create_json(movies)
-        crawler_imdb.create_dataframe_imdb()
+        main_content = get_main_content(self.page)
+        movies = get_movies_list(main_content)
+        create_json(movies)
+        create_dataframe_imdb()
         self.assertTrue(os.path.exists('movies.csv'))
         df = pd.read_csv('movies.csv')
         self.assertValid(

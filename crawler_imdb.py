@@ -117,6 +117,14 @@ def get_movies_list(content_page):
                 'rating': rating.get_text() if rating else ''
             })
 
+        dict_movies = {
+            'title': re.sub(r'^\d+\.\s*', '', title_movie),
+            'year': year.get_text() if year else '',
+            'duration': duration.get_text() if duration else '',
+            'rating': rating.get_text() if rating else ''
+        }
+        save_movie_database(dict_movies)
+
     return movies
 
 

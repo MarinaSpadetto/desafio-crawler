@@ -37,6 +37,8 @@ services:
       - ./:/app
     networks:
       - my-network
+    env_file:
+      - ./.env
     depends_on:
       - bm-postgres
       - bm-pgadmin

@@ -6,6 +6,7 @@ import re
 import time
 import pandas as pd
 import os
+import socket
 from datetime import datetime
 from db.database import DatabaseManager
 from bs4 import BeautifulSoup
@@ -31,7 +32,7 @@ logging.basicConfig(
     level=logging.INFO)
 
 db_config = {
-    'host': 'localhost',
+    'host': socket.gethostbyname(socket.gethostname()),
     'port': os.environ.get('DATABASE_PORT'),
     'database': os.environ.get('DATABASE'),
     'user': os.environ.get('DATABASE_USER'),

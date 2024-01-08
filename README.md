@@ -63,7 +63,7 @@ Para executar a aplicação usando Docker Compose, siga estas etapas:
 
 Lembre-se de verificar se o container do PostgreSQL está em execução.
 
-1. Acesse [localhost](http://localhost:15432/browser/).
+1. Acesse http://localhost:15432/browser/.
 2. Faça login com as credenciais.
 
 ### Observações

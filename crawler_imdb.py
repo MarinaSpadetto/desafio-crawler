@@ -31,7 +31,7 @@ logging.basicConfig(
     level=logging.INFO)
 
 db_config = {
-    'host': os.environ.get('DATABASE_HOST'),
+    'host': 'localhost',
     'port': os.environ.get('DATABASE_PORT'),
     'database': os.environ.get('DATABASE'),
     'user': os.environ.get('DATABASE_USER'),

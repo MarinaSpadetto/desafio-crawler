@@ -1,6 +1,7 @@
 # Desafio Beemon
 
-Esta aplicação foi desenvolvida para o criar um [crawler](https://github.com/beemontech/desafio-crawler). Neste README, você encontrará informações essenciais sobre como configurar e executar este projeto.
+Esta aplicação foi desenvolvida para o criar um [crawler](https://github.com/beemontech/desafio-crawler) pela empresa
+Beemôn. Neste README, você encontrará informações essenciais sobre como configurar e executar este projeto.
 
 ## Descrição
 
@@ -42,9 +43,9 @@ Para executar a aplicação usando Docker Compose, siga estas etapas:
 
 4. Acesse o `bash` do container, execute este comando:
 
- ```
- docker exec -it bm-crawler bash
- ```
+   ```
+   docker exec -it bm-crawler bash
+   ```
 
 5. Execute o seguinte comando na raiz, para iniciar o crawler:
 
@@ -58,6 +59,17 @@ Para executar a aplicação usando Docker Compose, siga estas etapas:
    python3 -m datatest test/test_crawler_imbd.py
    ```
 
+### Acessar o banco de dados
+
+Lembre-se de verificar se o container do PostgreSQL está em execução.
+
+1. Acesse [localhost](http://localhost:15432/browser/).
+2. Faça login com as credenciais.
+
 ### Observações
 
 1. Lembre-se de parar os contêineres Docker (usando `docker-compose down`).
+
+
+---
+Desenvolvido por Marina Spadetto

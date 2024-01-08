@@ -32,7 +32,9 @@ logging.basicConfig(
     level=logging.INFO)
 
 db_config = {
-    'host': socket.gethostbyname(socket.gethostname()),
+    # localmente MAC M1
+    # 'host': socket.gethostbyname(socket.gethostname()),
+    'host': os.environ.get('DATABASE_HOST'),
     'port': os.environ.get('DATABASE_PORT'),
     'database': os.environ.get('DATABASE'),
     'user': os.environ.get('DATABASE_USER'),
